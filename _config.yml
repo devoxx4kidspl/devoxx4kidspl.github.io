@@ -1,0 +1,24 @@
+# Site settings
+title: Devoxx4Kids Polska
+email: devoxx4kidspl@gmail.com
+description: >
+  Devoxx4Kids to wspaniała szansa dla najmłodszych na pierwszy kontakt z programowaniem poprzez zabawę.
+  Celem naszego wydarzenia jest pokazanie najmłodszemu pokoleniu, jak sterować i bawić się komputerami. 
+  Mamy również nadzieję rozpowszechnić wśród nauczycieli oraz rodziców bogactwo dostępnych za darmo 
+  materiałów i narzędzi wspomagających edukację komputerową. Devoxx4Kids Polska to pierwsza, bezpłatna 
+  i otwarta konferencja programistyczną dla dzieci będąca częścią światowego ruchu Devoxx4Kids
+baseurl: ""
+url: "http://devoxx4kids.org.pl"
+twitter_username: Devoxx4KidsPL
+github_username:  devox4kidspl
+
+# Build settings
+markdown: kramdown
+
+#Collections
+collections:
+  - grupa6
+  - grupa8
+  - grupa10
+  - grupa12
+  - grupa_opiekunowie

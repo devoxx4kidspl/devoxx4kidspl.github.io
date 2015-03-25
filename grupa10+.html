@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="entry-content clearfix">
+  <div class="workshop-header">
+    <h1>Warsztaty dla dzieci w wieku</h1>
+
+    <p><img class="size-full wp-image-139" src="./images/devoxx-04.png" alt="Warsztat 10+" width="193"
+            height="192"><br>
+      Uczestnictwo rodziców nie jest wymagane.
+    </p>
+  </div>
+
+  {% for tool in site.grupa10 %}
+  <section class="widget workshop-widget clearfix">
+    <h2 class="widget-title"><a id="{{tool.title | slugify}}"></a>{{tool.title}}</h2>
+    <div class="workshop-post">
+      {{tool.content}}
+    </div>
+  </section>
+  {% endfor %}
+</div>
