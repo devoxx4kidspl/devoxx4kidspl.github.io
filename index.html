@@ -1,96 +1,49 @@
 ---
-layout: default
+layout: main
 ---
 
-<div class="entry-content clearfix">
+<style type="text/css">
+  div.city {
+    float: left;
+    width: 192px;
+    height: 270px;
+    margin: 0 20px;
+  }
+
+  div.city .logo {
+    height: 230px;
+    line-height: 230px;
+  }
+
+  div.city .logo img {
+    vertical-align: bottom;
+  }
+</style>
+
   <div class="mainPage">
-    <h1>Cel</h1>
-
-    <p><strong>Devoxx4Kids</strong> to wspaniała szansa dla najmłodszych na pierwszy kontakt z programowaniem poprzez
-      zabawę. Celem naszego wydarzenia jest pokazanie najmłodszemu pokoleniu, jak sterować i bawić się komputerami.
-      Mamy również nadzieję rozpowszechnić wśród nauczycieli oraz rodziców bogactwo dostępnych za darmo materiałów i
-      narzędzi wspomagających edukację komputerową. Devoxx4Kids Polska to pierwsza, bezpłatna i otwarta konferencja
-      programistyczną dla dzieci będąca częścią <a href="http://devoxx4kids.org/">światowego ruchu Devoxx4Kids</a></p>
-
-    <h1>Warsztaty</h1>
-
-    <p>Wydarzenie jest skierowane dla dzieci w wieku od 6 do 15 lat. Dla każdego z czterech przedziałów wiekowych
-      przygotowana jest oddzielna ścieżka. Przeprowadzane warsztaty wykorzystują zarówno darmowe jak i komercyjne
-      rozwiązania dostępne na polskim rynku lub przez internet.<!-- Więcej informacji można znaleźć na stronie z <a
-          title="Agenda" href="warsztaty.html">agendą</a>.--></p>
-    <table class="noborder workshops">
-      <tbody>
-      <tr>
-        <td>
-          <p></p>
-
-          <div id="attachment_139" style="width: 202px" class="wp-caption alignleft">
-            <a title="Ścieżka 6+" href="grupa6+.html">
-              <img class="size-full wp-image-137" src="./images/devoxx-02.png" alt="Warsztat 6+" width="192"
-                   height="192">
-            </a>
-
-            <p class="wp-caption-text">Warsztat 6+</p></div>
-        </td>
-        <td>
-          <p></p>
-
-          <div id="attachment_138" style="width: 203px" class="wp-caption alignleft">
-            <a title="Ścieżka 8+" href="grupa8+.html">
-              <img class="size-full wp-image-138" src="./images/devoxx-03.png" alt="Warsztat 8+" width="193" height="192">
-            </a>
-
-            <p class="wp-caption-text">Warsztat 8+</p></div>
-        </td>
-        <td>
-          <p></p>
-
-          <div id="attachment_139" style="width: 203px" class="wp-caption alignleft">
-            <a title="Ścieżka 10+" href="grupa10+.html"><img
-                class="size-full wp-image-139" src="./images/devoxx-04.png" alt="Warsztat 10+" width="193" height="192">
-            </a>
-
-            <p class="wp-caption-text">Warsztat 10+</p></div>
-        </td>
-        <td>
-          <p></p>
-
-          <div id="attachment_140" style="width: 203px" class="wp-caption alignleft">
-            <a title="Ścieżka 12+" href="grupa12+.html">
-              <img class="size-full wp-image-140" src="./images/devoxx-05.png" alt="Warsztat 12+" width="193" height="193">
-            </a>
-
-            <p class="wp-caption-text">Warsztat 12+</p></div>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="4">
-          <p></p>
-
-          <div style="width: 208px" class="wp-caption aligncenter">
-            <a title="Grupa Opiekunowie" href="opiekunowie.html">
-              <img class="wp-image-360 size-full" src="./images/devoxx-051-e1401109158342.png" alt="" width="198" height="192">
-            </a>
-
-            <p class="wp-caption-text">Warsztaty dla opiekunów i nauczycieli</p></div>
-        </td>
-      </tr>
-      </tbody>
-    </table>
-
-    <h1>Miejsce</h1>
-
-    <p>Gościć nas będzie</p>
-
-    <p><a title="Zespół Szkół Licealnych i Technicznych nr 1" href="http://staff.edu.pl/" target="_blank">Zespół Szkół
-      Licealnych i Technicznych nr 1</a><br>
-      ul. Wiśniowa 56<br>
-      02-520 Warszawa</p>
-
-    <p></p>
-    <small><a
-        href="https://maps.google.pl/maps?f=q&source=embed&hl=pl&geocode=&q=Wi%C5%9Bniowa+56,+Warszawa&aq=0&oq=Wi%C5%9Bniowa+56&sll=51.953751,19.134379&sspn=11.587614,33.815918&ie=UTF8&hq=&hnear=Wi%C5%9Bniowa+56,+Warszawa,+Mazowieckie&t=m&ll=52.210184,21.014099&spn=0.021038,0.036478&z=14&iwloc=A"
-        target="_blank">Wyświetl mapę</a></small>
-    <p></p>
+    <h3>Wybierz miasto</h3>
+    <div class="city">
+      <div class="logo">
+        <a href="/warszawa"><img src="/images/cities/warszawa.png" alt="Warszawa" title="Warszawa" width="192"/></a>
+      </div>
+      <a href="/warszawa">Warszawa - 30.V</a>
+    </div>
+    <div class="city">
+      <div class="logo">
+        <!--<a href="/radomsko"><img src="/images/cities/radomsko.jpg" alt="Radomsko" title="Radomsko" width="192"/></a>-->
+      </div>
+      <a href="/radomsko">Radomsko - 6.VI</a>
+    </div>
+    <div class="city">
+      <div class="logo">
+        <a href="/poznan"><img src="/images/cities/poznan.jpg" alt="Poznań" title="Poznań" width="192"/></a>
+      </div>
+      <a href="/poznan">Poznań - 13.VI</a>
+    </div>
+    <div class="city">
+      <div class="logo">
+        <!--<a href="/gdynia"><img src="/images/cities/gdynia.jpg" alt="Gdynia" title="Gdynia" width="192"/></a>-->
+      </div>
+      <a href="/gdynia">Gdynia - wrzesień</a>
+    </div>
   </div>
-</div>
