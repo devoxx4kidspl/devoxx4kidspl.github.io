@@ -8,6 +8,20 @@ layout: warszawa
 
     {% include index/workshops.html %}
 
+    <div id="map-canvas"></div>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(52.210447,21.014282),
+          zoom: 16,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+    
     <h1>Miejsce</h1>
 
     <p>Gościć nas będzie</p>

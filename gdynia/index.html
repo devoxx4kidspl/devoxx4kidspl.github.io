@@ -8,8 +8,22 @@ layout: gdynia
 
     {% include index/workshops.html %}
 
+    <div id="map-canvas"></div>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(54.5110688,18.533778),
+          zoom: 12,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
     <h1>Miejsce</h1>
 
-    <p>Trwają poszukiwania najlepszego miejsca w Gdyni dla tej konferencji :-)</p>
+    <p>Trwają poszukiwania<br>najlepszego miejsca<br>w Gdyni dla tej konferencji :-)</p>
   </div>
 </div>
