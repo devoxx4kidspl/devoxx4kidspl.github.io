@@ -10,13 +10,6 @@ layout: gdynia
       Uczestnictwo rodziców nie jest wymagane.</p>
   </div>
 
-  {% for tool in site.grupa8 %}
-  <section class="widget workshop-widget clearfix">
-    <h2 class="widget-title"><a id="{{tool.title | slugify}}"></a>{{tool.title}}</h2>
-    <div class="workshop-post">
-      {{tool.content}}
-    </div>
-  </section>
-  {% endfor %}
+  {% include common/workshop_descriptions.html tools = "Code.org, Scratch, Lego® WeDo + Scratch" %}
 </div>
 

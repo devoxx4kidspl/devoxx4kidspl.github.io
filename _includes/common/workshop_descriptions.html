@@ -1,0 +1,10 @@
+{% for tool in site.workshop_tools %}
+  {% if include.tools contains tool.title %}
+    <section class="widget workshop-widget clearfix">
+      <h2 class="widget-title"><a id="{{tool.title | slugify}}"></a>{{tool.title}}</h2>
+      <div class="workshop-post">
+        {{tool.content}}
+      </div>
+    </section>
+  {% endif %}
+{% endfor %}
