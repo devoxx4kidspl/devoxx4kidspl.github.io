@@ -1,0 +1,15 @@
+div.city {
+    float: left;
+    width: 192px;
+    height: 270px;
+    margin: 0 20px;
+}
+
+div.city .logo {
+    height: 230px;
+    line-height: 230px;
+}
+
+div.city .logo img {
+    vertical-align: bottom;
+}
