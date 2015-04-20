@@ -1,5 +1,5 @@
 div.city {
-    float: left;
+    display: inline-block;
     width: 192px;
     height: 270px;
     margin: 0 20px;
