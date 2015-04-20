@@ -17,8 +17,5 @@ markdown: kramdown
 
 #Collections
 collections:
-  - grupa6
-  - grupa8
-  - grupa10
-  - grupa12
   - grupa_opiekunowie
+  - workshop_tools

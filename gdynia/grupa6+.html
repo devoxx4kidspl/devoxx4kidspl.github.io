@@ -7,16 +7,9 @@ layout: gdynia
     <h1>Warsztaty dla dzieci w wieku</h1>
 
     <p style="text-align: center;">
-      <img class="size-full wp-image-137 aligncenter" src="/images/devoxx-02.png" alt="Warsztat 6+" width="192" height="192">
+      <img class="size-full wp-image-137 aligncenter" src="/images/grupa6+.png" alt="Warsztat 6+" width="192" height="192">
     </p>
   </div>
 
-  {% for tool in site.grupa6 %}
-  <section class="widget workshop-widget clearfix">
-    <h2 class="widget-title"><a id="{{tool.title | slugify}}"></a>{{tool.title}}</h2>
-    <div class="workshop-post">
-      {{tool.content}}
-    </div>
-  </section>
-  {% endfor %}
+  {% include common/workshop_descriptions.html tools = "Dr. Techniko, LightBot, Lego® WeDo (Robomaniacs)" %}
 </div>
