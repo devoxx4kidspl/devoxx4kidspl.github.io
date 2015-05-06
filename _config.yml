@@ -19,3 +19,4 @@ markdown: kramdown
 collections:
   - grupa_opiekunowie
   - workshop_tools
+  - talks_poznan

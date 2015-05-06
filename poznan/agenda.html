@@ -260,11 +260,20 @@ layout: poznan
     </tr>
     </thead>
     <tbody>
+    {% for talk in site.talks_poznan %}
     <tr>
-      <td>9:30-16:30</td>
+      <td>{{talk.time}}</td>
       <td>
-        <p>W trakcie przygotowania...</p>
-      </td>
+        <a title="Grupa Opiekunowie" href="opiekunowie.html">{{talk.title}}</a>
+
+        <p></p>
+
+        <p><span class="author">{{talk.speaker}}</span></p></td>
+    </tr>
+    {% endfor %}
+    <tr>
+      <td></td>
+      <td>W trakcie przygotowania...</td>
     </tr>
     </tbody>
   </table>
