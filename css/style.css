@@ -874,6 +874,38 @@ li.default-menu {
 	padding-bottom: 0;
 }
 
+
+.small-12.medium-10.medium-centered.columns {
+  list-style: none;
+  width: 20%;
+  position: relative;
+  padding-left: .75rem;
+  padding-right: .75rem;
+    margin-left: auto;
+  margin-right: auto;
+  float: none;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+ul.small-block-grid-2.medium-block-grid-5 {
+  display: block;
+  padding: 0;
+  margin: 0 -.4rem;
+  float: none;
+  box-sizing: inherit;
+}
+
+.wrapper .center-holder {
+  text-align: center;
+  background-color: #2CB588;
+}
+
+
 /* =BREADCRUMB NAVXT PLUGIN SUPPORT 
 ----------------------------------------------- */
 .breadcrumb {	
