@@ -901,6 +901,7 @@ ul.small-block-grid-2.medium-block-grid-5 {
   margin: 0 -.4rem;
   float: none;
   box-sizing: inherit;
+  content: " ";
   display: table;
 }
 
