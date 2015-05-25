@@ -877,7 +877,7 @@ li.default-menu {
 
 .small-12.medium-10.medium-centered.columns {
   list-style: none;
-  width: 20%;
+width: 83.3333333333%;
   position: relative;
   padding-left: .75rem;
   padding-right: .75rem;
@@ -885,6 +885,9 @@ li.default-menu {
   margin-right: auto;
   float: none;
   list-style-type: disc;
+  box-sizing: inherit;
+      cursor: auto;
+  line-height: 1.5
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0px;
@@ -898,6 +901,7 @@ ul.small-block-grid-2.medium-block-grid-5 {
   margin: 0 -.4rem;
   float: none;
   box-sizing: inherit;
+  display: table;
 }
 
 .wrapper .center-holder {
