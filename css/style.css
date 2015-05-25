@@ -877,11 +877,11 @@ li.default-menu {
 
 .small-12.medium-10.medium-centered.columns {
   list-style: none;
-width: 83.3333333333%;
+  width: 83.3333333333%;
   position: relative;
   padding-left: .75rem;
   padding-right: .75rem;
-    margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
   float: none;
   list-style-type: disc;
@@ -901,7 +901,6 @@ ul.small-block-grid-2.medium-block-grid-5 {
   margin: 0 -.4rem;
   float: none;
   box-sizing: inherit;
-  content: " ";
   display: table;
 }
 
