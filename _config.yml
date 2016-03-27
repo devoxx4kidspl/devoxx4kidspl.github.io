@@ -7,19 +7,20 @@ description: >
   Mamy również nadzieję rozpowszechnić wśród nauczycieli oraz rodziców bogactwo dostępnych za darmo 
   materiałów i narzędzi wspomagających edukację komputerową. Devoxx4Kids Polska to pierwsza, bezpłatna 
   i otwarta konferencja programistyczną dla dzieci będąca częścią światowego ruchu Devoxx4Kids
+landing_page_description: "Pierwsza, bezpłatna i otwarta konferencja programistyczną dla dzieci będąca częścią światowego ruchu Devoxx4Kids"
 baseurl: ""
 url: "http://devoxx4kids.org.pl"
-twitter_username: Devoxx4KidsPL
-github_username:  devox4kidspl
+first_published: 2015
+social:
+  twitter: https://twitter.com/Devoxx4KidsPL
+  github: https://github.com/devoxx4kidspl
 
 # Build settings
 markdown: kramdown
 
-#Collections
 collections:
-  - grupa_opiekunowie
-  - workshop_tools
-  - talks_poznan
-  - talks_warszawa
-  - talks_radomsko
-  - talks_gdynia
+  miasta:
+    output: true
+
+exclude:
+ - backup
