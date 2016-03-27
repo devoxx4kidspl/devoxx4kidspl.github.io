@@ -1,3 +1,9 @@
+# jekyll
 _site
 .sass-cache
+
+# ide
 .idea
+
+# other
+backup
