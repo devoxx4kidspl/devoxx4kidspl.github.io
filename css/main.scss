@@ -1219,7 +1219,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	}
 
-	.wrapper {
+	.wrapper, #sponsors {
 		@include padding(6em, 0);
 
 		> .inner {
@@ -1266,6 +1266,10 @@ $baseurl: '{{ site.baseurl }}/images';
 		@include breakpoint(small) {
 			@include padding(3em, 2em);
 		}
+	}
+
+	#sponsors {
+		@include padding(2em, 0);
 	}
 
 /* Page Wrapper + Menu */
