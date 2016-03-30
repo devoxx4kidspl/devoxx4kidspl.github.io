@@ -1409,19 +1409,23 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 
 			#logo img {
-				width: 43px;
-				height: 52px;
+				width: 2.6rem;
+				height: 3rem;
 
 				@include breakpoint(small) {
-					width: 37px;
-					height: 44px;
+					width: 2.2rem;
+					height: 2.6rem;
 				}
 			}
 
 			#title {
-				margin: 0 0 0 20px;
-				top: -20px;
+				margin: 0 0 0 1.2em;
 				position: relative;
+				top: -0.8em;
+
+				@include breakpoint(small) {
+					top: -1.4em;
+				}
 			}
 		}
 
