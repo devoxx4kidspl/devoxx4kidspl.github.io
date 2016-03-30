@@ -1270,6 +1270,10 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	#sponsors {
 		@include padding(2em, 0);
+
+		h2 {
+			margin: 0 0 0 2em;
+		}
 	}
 
 /* Page Wrapper + Menu */
