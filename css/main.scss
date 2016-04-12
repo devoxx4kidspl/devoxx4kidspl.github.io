@@ -345,7 +345,7 @@ $baseurl: '{{ site.baseurl }}/images';
 	}
 
 	input[type="checkbox"],
-	input[type="radio"], {
+	input[type="radio"] {
 		@include vendor('appearance', 'none');
 		display: block;
 		float: left;
@@ -1171,7 +1171,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 
 			input[type="checkbox"],
-			input[type="radio"], {
+			input[type="radio"] {
 				& + label {
 					color: _palette($p, fg);
 
