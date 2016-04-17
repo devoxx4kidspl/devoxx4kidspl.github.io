@@ -101,12 +101,19 @@
 
 function initMap() {
 	var mapEl = document.getElementById('map'),
-		lat = Number(mapEl.dataset.lat),
-		lng = Number(mapEl.dataset.lng),
+		myLatlng = new google.maps.LatLng(Number(mapEl.dataset.lat), Number(mapEl.dataset.lng)),
 		zoom = parseInt(mapEl.dataset.zoom, 10),
+		title = mapEl.dataset.title,
+		icon = mapEl.dataset.icon,
 		map = new google.maps.Map(mapEl, {
-			center: {lat: lat, lng: lng},
+			center: myLatlng,
 			scrollwheel: false,
 			zoom: zoom
+		}),
+		marker = new google.maps.Marker({
+			position: myLatlng,
+			icon: icon
 		});
+
+	marker.setMap(map);
 }
