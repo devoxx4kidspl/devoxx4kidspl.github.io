@@ -1,4 +1,5 @@
 <!-- Scripts -->
+<script src="https://maps.googleapis.com/maps/api/js?v=3&libraries=places"></script>
 <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
 <script src="{{ site.baseurl }}/js/jquery.scrollex.min.js"></script>
 <script src="{{ site.baseurl }}/js/jquery.scrolly.min.js"></script>
@@ -6,3 +7,6 @@
 <script src="{{ site.baseurl }}/js/util.js"></script>
 <!--[if lte IE 8]><script src="{{ site.baseurl }}/js/ie/respond.min.js"></script><![endif]-->
 <script src="{{ site.baseurl }}/js/main.js"></script>
+{% if page.map %}
+<script>initMap();</script>
+{% endif %}

@@ -98,3 +98,15 @@
 	});
 
 })(jQuery);
+
+function initMap() {
+	var mapEl = document.getElementById('map'),
+		lat = Number(mapEl.dataset.lat),
+		lng = Number(mapEl.dataset.lng),
+		zoom = parseInt(mapEl.dataset.zoom, 10),
+		map = new google.maps.Map(mapEl, {
+			center: {lat: lat, lng: lng},
+			scrollwheel: false,
+			zoom: zoom
+		});
+}

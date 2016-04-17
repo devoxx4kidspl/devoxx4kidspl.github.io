@@ -1342,6 +1342,11 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 	}
 
+	#map {
+		height: 560px;
+		width: 100%;
+	}
+
 	#sponsors {
 		@include padding(2em, 0);
 

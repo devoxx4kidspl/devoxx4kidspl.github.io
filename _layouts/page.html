@@ -12,6 +12,9 @@ layout: default
 		<div class="inner">
 			{{ content }}
 		</div>
+		{% if page.map %}
+			<div id="map" data-lat="{{ page.map.lat }}" data-lng="{{ page.map.lng }}" data-zoom="{{ page.map.zoom }}"></div>
+		{% endif %}
 	</section>
 
 	{% if page.sponsors %}
