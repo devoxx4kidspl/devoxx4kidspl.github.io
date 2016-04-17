@@ -14,4 +14,21 @@ layout: default
 		</div>
 	</section>
 
+	{% if page.sponsors %}
+	<section id="sponsors" class="wrapper style1">
+		<div class="inner">
+			<header class="major">
+				<h2>Partnerzy i sponsorzy</h2>
+				<ul>
+					{% for sponsor in page.sponsors %}
+						{% if sponsor.name and sponsor.link and sponsor.logo %}
+							<li><a href="{{ sponsor.link }}" target="_blank"><img src="{{ site.baseurl }}/images/sponsors/{{ sponsor.logo }}" title="{{ sponsor.name }}" /></a></li>
+						{% endif %}
+					{% endfor %}
+				</ul>
+			</header>
+		</div>
+	</section>
+	{% endif %}
+
 </article>
