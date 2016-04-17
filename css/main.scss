@@ -1333,6 +1333,11 @@ $baseurl: '{{ site.baseurl }}/images';
 			@include wrapper(accent7);
 		}
 
+		&.style6 {
+			@include wrapper(accent7);
+			padding: 6em 0 0 0;
+		}
+
 		@include breakpoint(medium) {
 			@include padding(4em, 3em);
 		}
@@ -1345,6 +1350,10 @@ $baseurl: '{{ site.baseurl }}/images';
 	#map {
 		height: 560px;
 		width: 100%;
+
+		@include breakpoint(small) {
+			height: 320px;
+		}
 	}
 
 	#sponsors {
