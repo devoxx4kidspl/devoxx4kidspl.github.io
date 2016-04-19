@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Devoxx4Kids Polska | Poznań, 13 czerwca 2015</title>
+
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" id="google_fonts-css" href="/css/font.css" type="text/css" media="all">
+  <link rel="stylesheet" id="spacious_style-css" href="/css/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="/css/main.css" type="text/css" media="all">
+
+  <script type="text/javascript" src="/js/jquery.js"></script>
+  <script type="text/javascript" src="/js/jquery-migrate.min.js"></script>
+  <script type="text/javascript" src="/js/spacious-custom.js"></script>
+
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+
+  <style type="text/css">
+    div.age_group {
+      display: inline-block;
+      margin: 10px;
+    }
+
+    #map-canvas {
+      width: 450px;
+      height: 250px;
+      float: left;
+      margin-top: 30px;
+    }
+
+    .sponsors,
+    .partners {
+      margin-top: 20px;
+      text-align: center;
+    }
+    
+    .sponsors .caption {
+      margin: 0;
+    }
+    
+    .sponsors .gold {
+      display: block;
+    }
+
+    .sponsors img {
+      margin: 30px;
+    }
+
+    .partners img {
+      margin: 10px;
+    }
+    
+    .sponsors img.nomargin,
+    .partners img.nomargin {
+      margin: 0 !important;
+    }
+
+    .sponsors .sponsor,
+    .partners .partner {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+  blockquote {
+    border-left: 3px solid #347ccf;
+  }
+
+  .spacious-button, input[type="reset"], input[type="button"], input[type="submit"], button {
+    background-color: #347ccf;
+  }
+
+  .previous a:hover, .next a:hover {
+    color: #347ccf;
+  }
+
+  a {
+    color: #347ccf;
+  }
+
+  #site-title a:hover {
+    color: #347ccf;
+  }
+
+  .main-navigation ul li.current_page_item a, .main-navigation ul li:hover > a {
+    color: #347ccf;
+  }
+
+  .main-navigation ul li ul {
+    border-top: 1px solid #347ccf;
+  }
+
+  .main-navigation ul li ul li a:hover, .main-navigation ul li ul li:hover > a, .main-navigation ul li.current-menu-item ul li a:hover {
+    color: #347ccf;
+  }
+
+  .site-header .menu-toggle:hover {
+    background: #347ccf;
+  }
+
+  .main-small-navigation li:hover {
+    background: #347ccf;
+  }
+
+  .main-small-navigation ul > .current_page_item, .main-small-navigation ul > .current-menu-item {
+    background: #347ccf;
+  }
+
+  .main-navigation a:hover, .main-navigation ul li.current-menu-item a, .main-navigation ul li.current_page_ancestor a, .main-navigation ul li.current-menu-ancestor a, .main-navigation ul li.current_page_item a, .main-navigation ul li:hover > a {
+    color: #347ccf;
+  }
+
+  .small-menu ul li ul li a:hover, .small-menu ul li ul li:hover > a, .small-menu ul li.current-menu-item ul li a:hover {
+    color: #347ccf;
+  }
+
+  #featured-slider .slider-read-more-button {
+    background-color: #347ccf;
+  }
+
+  #controllers a:hover, #controllers a.active {
+    background-color: #347ccf;
+    color: #347ccf;
+  }
+
+  .breadcrumb a:hover {
+    color: #347ccf;
+  }
+
+  .tg-one-half .widget-title a:hover, .tg-one-third .widget-title a:hover, .tg-one-fourth .widget-title a:hover {
+    color: #347ccf;
+  }
+
+  .pagination span {
+    background-color: #347ccf;
+  }
+
+  .pagination a span:hover {
+    color: #347ccf;
+    border-color: . #347ccf;
+  }
+
+  .widget_testimonial .testimonial-post {
+    border-color: #347ccf #EAEAEA #EAEAEA #EAEAEA;
+  }
+
+  .call-to-action-content-wrapper {
+    border-color: #EAEAEA #EAEAEA #EAEAEA #347ccf;
+  }
+
+  .call-to-action-button {
+    background-color: #347ccf;
+  }
+
+  #content .comments-area a.comment-permalink:hover {
+    color: #347ccf;
+  }
+
+  .comments-area .comment-author-link a:hover {
+    color: #347ccf;
+  }
+
+  .comments-area .comment-author-link span {
+    background-color: #347ccf;
+  }
+
+  .comment .comment-reply-link:hover {
+    color: #347ccf;
+  }
+
+  .nav-previous a:hover, .nav-next a:hover {
+    color: #347ccf;
+  }
+
+  #wp-calendar #today {
+    color: #347ccf;
+  }
+
+  .widget-title span {
+    border-bottom: 2px solid #347ccf;
+  }
+
+  .footer-widgets-area a:hover {
+    color: #347ccf !important;
+  }
+
+  .footer-socket-wrapper .copyright a:hover {
+    color: #347ccf;
+  }
+
+  a#back-top:before {
+    background-color: #347ccf;
+  }
+
+  .read-more, .more-link {
+    color: #347ccf;
+  }
+
+  .post .entry-title a:hover, .page .entry-title a:hover {
+    color: #347ccf;
+  }
+
+  .post .entry-meta .read-more-link {
+    background-color: #347ccf;
+  }
+
+  .post .entry-meta a:hover, .type-page .entry-meta a:hover {
+    color: #347ccf;
+  }
+
+  .single #content .tags a:hover {
+    color: #347ccf;
+  }
+
+  .widget_testimonial .testimonial-icon:before {
+    color: #347ccf;
+  }
+
+  a#scroll-up {
+    background-color: #347ccf;
+  }
+
+  #search-form span {
+    background-color: #347ccf;
+  }
+  </style>
+  
+  <style type="text/css">
+  #primary {
+    position: relative;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    padding-top: 18px;
+  }
+
+  .mainColor {
+    color: #347ccf;
+  }
+
+  .fancyTitle {
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  }
+
+  table.fancyTable {
+    border: none !important;
+  }
+
+  table.fancyTable tr td {
+    border-left: 2px solid #347ccf;
+    margin-right: 10px;
+  }
+
+  /*Devoxx4Kids Poland*/
+  #header-text h1 a, #header-text h2 {
+    color: #346ccf !important;
+  }
+
+  /*tytul strony*/
+  .header-post-title-class {
+    text-transform: uppercase;
+  }
+
+  /*baner*/
+  .header-image-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-image {
+    width: auto !important;
+    border: none !important;
+  }
+
+  /**strona glowna**/
+  .mainPage {
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+  }
+
+  .mainPage h1 {
+    margin-top: 20px;
+    
+  }
+
+  /*div z warsztatami*/
+  .workshops {
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .workshops .wp-caption {
+    border: none !important;
+  }
+
+  .workshop {
+    border: none !important;
+  }
+
+  .workshop-icon {
+    position: absolute;
+    left: -220px;
+  }
+
+  /*EOF mainpage**/
+
+  /*opis warsztatow*/
+  .workshop-header {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .workshop-header h1 {
+    color: #347ccf;
+    text-align: center;
+  }
+
+  .workshop-widget {
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+
+  .workshop-widget .widget-title {
+    font-size: 22px;
+    text-align: left;
+    color: #347ccf;
+  }
+
+  .workshop-widget .workshop-post {
+    padding: 20px;
+    border-width: 2px 1px 1px 1px;
+    border-style: solid dashed dashed dashed;
+    border-color: #347ccf #EAEAEA #EAEAEA #EAEAEA;
+    margin-bottom: 15px;
+    display: block;
+    overflow: hidden;
+  }
+
+  .noborder, table.noborder th td, table.noborder tr td {
+    border: none !important;
+  }
+
+  /*listy w tekstach */
+  .entry-content ul {
+    margin-left: 20px;
+    list-style-position: outside;
+  }
+
+  .entry-content ul li {
+    list-style-type: disc;
+  }
+
+  /*rozpiska dla sciezki*/
+  .workshop-tab {
+    border-collapse: collapse;
+  }
+
+  .workshop-tab td {
+    padding: 15px;
+  }
+
+  .workshop-thead th {
+    border: none !important;
+  }
+
+  .odd {
+    background-color: #eaeaea;
+  }
+
+  .path6 {
+    text-align: center
+  }
+
+  .path8 {
+    text-align: center
+  }
+
+  .path10 {
+    text-align: center
+  }
+
+  .path12 {
+    text-align: center
+  }
+
+  .author {
+    color: darkgray;
+    font-style: italic;
+    font-size: 12px
+  }
+  </style>
+</head>
+
+
+<body class="home page page-id-68 page-template-default custom-background no-sidebar-full-width ">
+
+<div id="page" class="hfeed site">
+
+  <header id="masthead" class="site-header clearfix">
+
+  <div id="header-text-nav-container">
+    <div class="inner-wrap">
+
+      <div id="header-text-nav-wrap" class="clearfix">
+        <div id="header-left-section">
+          <div id="header-text">
+            <h1 id="site-title">
+              <a href="/index.html" title="Devoxx4Kids Polska" rel="home">Devoxx4Kids Polska</a>
+            </h1>
+            <h2 id="site-description">Poznań, 13 czerwca 2015</h2>
+          </div>
+        </div>
+
+        <!-- #header-left-section -->
+        <div id="header-right-section">
+          <nav id="site-navigation" class="main-navigation" role="navigation">
+            <h1 class="menu-toggle">Menu</h1>
+
+            <div class="menu-meinmenu-container">
+              <ul id="menu-meinmenu" class="menunav-menu">
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28">
+                  <a href="https://devoxx4kids-poznan.evenea.pl/">Zapisz się!</a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28">
+                  <a href="agenda.html">Agenda</a>
+                </li>
+                <li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28">
+                  <a href="lokalizacja.html">Lokalizacja</a>
+                </li>
+                <li id="menu-item-221" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-221">
+                  <a href="regulamin.html">Regulamin</a>
+                </li>
+                <li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84">
+                  <a href="sponsorzy.html">Wspierają nas</a>
+                </li>
+                <li id="menu-item-279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-279">
+                  <a href="organizatorzy.html">Organizatorzy</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <!-- #header-right-section -->
+
+      </div>
+      <!-- #header-text-nav-wrap -->
+    </div>
+    <!-- .inner-wrap -->
+  </div>
+  <!-- #header-text-nav-container -->
+
+  <div class="header-image-container">
+  <img src="/images/devoxx4kids-polska.png" class="header-image" width="1268" height="331" alt="Devoxx4Kids Polska">
+</div>
+
+</header>
+
+
+  <div id="main" class="clearfix">
+    <div class="inner-wrap">
+
+      <div id="primary">
+        <div id="content" class="clearfix">
+          <article class="page type-page status-publish hentry">
+
+            <div class="entry-content clearfix">
+  <div class="workshop-header">
+    <h1>Warsztaty dla dzieci w wieku</h1>
+
+    <p>
+      <img class="size-full wp-image-137 aligncenter" src="/images/grupa6+.png" alt="Warsztat 6+" width="192" height="192">
+    </p>
+  </div>
+
+  
+
+
+  
+    
+  
+    
+  
+    
+  
+
+  
+    
+  
+    
+  
+    
+  
+
+  
+    
+  
+    
+  
+    
+  
+
+  
+    
+  
+    
+  
+    
+  
+
+  
+    
+  
+    
+  
+    
+      <section class="widget workshop-widget clearfix">
+        <h2 class="widget-title"><a id="code-org"></a>Code.org</h2>
+        <div class="workshop-post">
+          <h6>Opis tematyczny</h6>
+
+<p><img src="/images/20-hour-banner.jpg" alt="AngryBirds i więcej" width="640" height="254"><br>
+  Podczas tego warsztatu uczestnicy poznają podstawy tego czym jest zabawa związana z programowaniem. Uczestnicy
+  za pomocą odpowiednich bloków będą rozwiązywać łamigłówki które pomogą im ostatecznie w stworzenie własnej gry
+  która później będą mogli się pochwalić swoim znajomym.</p>
+
+<h6>Wartość merytoryczna</h6>
+
+<p>Poznanie w jaki sposob pracuje komputer oraz odkrycie jakie możliwości daje zabawa z komputerem w której
+  wykorzystujemy kreatywność i dziecięcą ciekawość.</p>
+
+<h6>Wymagania</h6>
+
+<p>Umiejętności układania puzzli. Odrobina cierpliwości z domieszką ciekawości i chęć współpracy przy dobrej
+  zabawie.</p>
+
+<h6>Materiały pomocnicze</h6>
+
+<p>Brak</p>
+
+<h6>Więcej</h6>
+
+<p><a title="Code.org" href="http://learn.code.org/" target="_blank">http://learn.code.org/</a></p>
+        </div>
+      </section>
+    
+  
+
+  
+    
+  
+    
+  
+    
+  
+
+  
+    
+  
+    
+  
+    
+  
+
+  
+    
+  
+    
+  
+    
+  
+
+  
+    
+      <section class="widget workshop-widget clearfix">
+        <h2 class="widget-title"><a id="dr-techniko"></a>Dr. Techniko</h2>
+        <div class="workshop-post">
+          <img class="alignnone size-full wp-image-120" src="/images/drtechniko-screenshot.png" alt="Dr. Techniko Screenshot" width="738" height="542"><br>
+Nauka podstawowych reguł myślenia proceduralnego dla najmłodszych.
+
+<p></p>
+
+<h6>Opis tematyczny</h6>
+
+<p>Na zajęciach dowiemy się co to są roboty oraz poznamy ich tajny język. Nauczymy się pisać programy, na
+  podstawie których nasze roboty będą w stanie wykonać coraz to bardziej skomplikowane misje. W rolę robotów
+  wcielą się … rodzicie. Dzieci będą miały okazję puścić wodze fantazji i zaprogramować rodziców tak, aby choć
+  raz bezwzględnie wykonywali ich polecania.</p>
+
+<h6>Wartość merytoryczna</h6>
+
+<p>Podstawy myślenia proceduralnego oraz nauka dekompozycji problemów do sekwencji komend.</p>
+
+<h6>Wymagania</h6>
+
+<p>Poczucie humoru, chęć do zabawy, dla rodziców: wygodny strój pozwalający na wykonywanie (często wielokrotne)
+  sekwencji komend przygotowanych przez dzieci.</p>
+
+<h6>Materiały pomocnicze</h6>
+
+<p>Robot (w postaci rodzica/opiekuna), którego będziesz programować <img src="/images/icon_smile.gif" alt=":)" class="wp-smiley"></p>
+
+<h6>Więcej</h6>
+
+<p><a title="Dr Techniko" href="http://drtechniko.com/" target="_blank">http://drtechniko.com/</a></p>
+        </div>
+      </section>
+    
+  
+    
+  
+    
+  
+
+  
+    
+  
+    
+  
+    
+  
+
+  
+    
+  
+    
+  
+    
+  
+
+  
+    
+  
+    
+  
+    
+  
+
+  
+    
+  
+    
+  
+    
+  
+
+  
+    
+  
+    
+  
+    
+  
+
+  
+    
+  
+    
+  
+    
+  
+
+  
+    
+  
+    
+  
+    
+  
+
+  
+    
+  
+    
+  
+    
+  
+
+  
+    
+  
+    
+  
+    
+  
+
+  
+    
+  
+    
+      <section class="widget workshop-widget clearfix">
+        <h2 class="widget-title"><a id="lightbot"></a>LightBot</h2>
+        <div class="workshop-post">
+          Będziemy zdobywać kolejne poziomy wydając robocikowi rozkazy umożliwiające zapalenie
+wszystkich płytek na planszy. Wraz z postępami poziomy staną się coraz trudniejsze. Uwaga! – nasz mały robot
+słucha bezwarunkowo podanych mu komend więc może zachowywać sie dziwacznie <img src="/images/icon_smile.gif" alt=":)" class="wp-smiley">
+
+<p></p>
+
+<h6>Wygląd aplikacji</h6>
+
+<p>
+  <img class="alignnone size-full wp-image-195" src="/images/light-bot-screenshot.jpg" alt="light-bot-screenshot" width="960" height="640">
+</p>
+
+<h6>Wartość merytoryczna</h6>
+
+<p>Nauka abstrakcyjnego myślenia, podstawy algorytmów, proste sekwencje komend (wstęp do programowania).</p>
+
+<h6>Wymagania</h6>
+
+<p>Wystarczy znajomość komputera i obsługi myszki komputerowej <img src="/images/icon_smile.gif" alt=":)" class="wp-smiley"></p>
+
+<h6>Więcej</h6>
+
+<p><a title="LightBot" href="http://light-bot.com/" target="_blank">http://light-bot.com/</a></p>
+        </div>
+      </section>
+    
+  
+    
+  
+
+  
+    
+  
+    
+  
+    
+  
+
+  
+    
+  
+    
+  
+    
+  
+
+  
+    
+  
+    
+  
+    
+  
+
+  
+    
+  
+    
+  
+    
+  
+
+  
+    
+  
+    
+  
+    
+  
+
+  
+    
+  
+    
+  
+    
+  
+
+  
+    
+  
+    
+  
+    
+  
+
+</div>
+
+
+          </article>
+        </div><!-- #content -->
+      </div><!-- #primary -->
+
+    </div><!-- .inner-wrap -->
+  </div><!-- #main -->
+
+
+  <footer id="colophon" class="clearfix">
+
+  <div class="footer-widgets-wrapper">
+    <div class="inner-wrap">
+      <div class="footer-widgets-area clearfix">
+
+        <div class="tg-one-fourth tg-column-1">
+  <aside id="nav_menu-3" class="widget widget_nav_menu">
+    <h3 class="widget-title"><span>Warsztaty</span></h3>
+    <div class="menu-sciezki-container">
+      <ul id="menu-sciezki" class="menu">
+        <li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83"><a href="grupa6+.html">Grupa 6+</a></li>
+        <li id="menu-item-82" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a href="grupa8+.html">Grupa 8+</a></li>
+        <li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a href="grupa10+.html">Grupa 10+</a></li>
+        <li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a href="grupa12+.html">Grupa 12+</a></li>
+        <li id="menu-item-372" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-372"><a href="opiekunowie.html">Grupa Opiekunowie</a></li>
+      </ul>
+    </div>
+  </aside>
+</div>
+
+        <div class="tg-one-fourth tg-column-2">
+          <aside id="text-4" class="widget widget_text">
+            <h3 class="widget-title"><span>Miejsce</span></h3>
+            <div class="textwidget">
+              <a href="http://gimnazjum56.hostdmk.net/www/" target="_blank">Gimnazjum nr 56 im. J. Wybickiego</a><br />
+              ul. Promyk 4<br />
+              60-393 Poznań
+            </div>
+          </aside>
+        </div>
+
+        <div class="tg-one-fourth tg-after-two-blocks-clearfix tg-column-3">
+  <aside id="text-3" class="widget widget_text">
+    <h3 class="widget-title"><span>Organizatorzy</span></h3>
+    <div class="textwidget">
+      Wydarzenie jest organizowane przez <a href="http://koduj.com/" target="_blank">Fundację Koduj.com</a>
+      [<a href="organizatorzy.html">więcej</a>]
+    </div>
+  </aside>
+</div>
+
+        <div class="tg-one-fourth tg-one-fourth-last tg-column-4">
+  <aside id="text-2" class="widget widget_text">
+    <h3 class="widget-title"><span>Kontakt</span></h3>
+    <div class="textwidget"
+        ><p><a href="mailto:devoxx4kidspl@gmail.com">devoxx4kidspl@gmail.com</a></p>
+    </div>
+  </aside>
+  <aside id="text-6" class="widget widget_text">
+    <div class="textwidget">
+      <a href="https://www.facebook.com/devoxx4kidspl" target="_blank"><img src="/images/FB-f-Logo__blue_50.png"></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="https://twitter.com/Devoxx4KidsPL" target="_blank"><img src="/images/twitter.png"></a></div>
+  </aside>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-socket-wrapper clearfix">
+  <div class="inner-wrap">
+    <div class="footer-socket-area">
+      <div class="copyright">Copyright © 2015 <a href="index.html" title="Devoxx4Kids Polska"><span>Devoxx4Kids Polska</span></a></div>
+    </div>
+  </div>
+</div>
+</footer>
+
+  <a href="http://www.devoxx4kids.pl/#masthead" id="scroll-up" style="display: block;"></a>
+</div><!-- #page -->
+<script type="text/javascript" src="/js/navigation.js"></script>
+
+</body>
+
+</html>
