@@ -3,9 +3,9 @@
 archive_page_root_address="$1"
 archive_file="$2"
 
-if [ $archive_file ];
+if [ ! -f $archive_file ];
 then
-   echo "File $achive_file does not exist."
+   echo "File $archive_file does not exist."
    exit
 fi
 
