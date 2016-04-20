@@ -10,7 +10,7 @@ description: >
 landing_page_description: "Pierwsza, bezpłatna i otwarta konferencja programistyczną dla dzieci będąca częścią światowego ruchu Devoxx4Kids"
 baseurl: ""
 url: "http://devoxx4kids.org.pl"
-first_published: 2015
+first_published: 2014
 social:
   twitter: https://twitter.com/Devoxx4KidsPL
   github: https://github.com/devoxx4kidspl

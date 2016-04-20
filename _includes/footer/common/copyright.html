@@ -2,7 +2,7 @@
   <li>&copy; {% assign thisyear = site.time | date: "%Y" %}
     {% if site.first_published %}
     {% capture diff %}{{ site.first_published | minus:thisyear }}{% endcapture %}
-    {% if diff contains '-' %}{{ site.first_published }},{% endif %}
+    {% if diff contains '-' %}{{ site.first_published }} - {% endif %}
     {% endif %}
     {{ thisyear }}
     <a href="{{ site.baseurl }}/index.html" title="Devoxx4Kids Polska"><span>Devoxx4Kids Polska</span></a></li>
