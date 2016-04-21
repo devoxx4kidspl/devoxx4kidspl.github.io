@@ -1848,8 +1848,10 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 
-	 	> header,
-		> header.poznan {
+		{% for miasto in site.miasta %}
+		> header.{{ miasto.banner }},
+		{% endfor %}
+		> header {
 			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/banner.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
@@ -1857,9 +1859,11 @@ $baseurl: '{{ site.baseurl }}/images';
 			background-size: cover;
 		}
 
-		> header.poznan {
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/banner-poznan-tmp.jpg")'));
+		{% for miasto in site.miasta %}
+		> header.{{ miasto.banner }} {
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/banner-{{ miasto.banner }}.jpg")'));
 		}
+		{% endfor %}
 	}
 
 	body.is-mobile {
