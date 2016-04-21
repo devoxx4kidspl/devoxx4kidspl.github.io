@@ -8,7 +8,7 @@ layout: default
 		<p>{{ page.description }}</p>
 	</header>
 
-	<section class="wrapper style6">
+	<section class="wrapper {% if page.map %}style6{% else %}style5{% endif %}">
 		<div class="inner">
 			{{ content }}
 		</div>
