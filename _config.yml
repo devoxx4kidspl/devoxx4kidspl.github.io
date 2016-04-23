@@ -25,5 +25,4 @@ collections:
     permalink: /miasta/:path/
 
 exclude:
- - backup
  - bash
