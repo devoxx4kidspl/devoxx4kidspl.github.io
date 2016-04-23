@@ -22,7 +22,7 @@ markdown: kramdown
 collections:
   miasta:
     output: true
+    permalink: /miasta/:path/
 
 exclude:
- - backup
  - bash
