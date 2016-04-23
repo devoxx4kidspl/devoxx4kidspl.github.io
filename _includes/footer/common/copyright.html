@@ -1,7 +1,11 @@
-<div class="footer-socket-wrapper clearfix">
-  <div class="inner-wrap">
-    <div class="footer-socket-area">
-      <div class="copyright">Copyright © 2015 <a href="index.html" title="Devoxx4Kids Polska"><span>Devoxx4Kids Polska</span></a></div>
-    </div>
-  </div>
-</div>
+<ul class="copyright">
+  <li>&copy; {% assign thisyear = site.time | date: "%Y" %}
+    {% if site.first_published %}
+    {% capture diff %}{{ site.first_published | minus:thisyear }}{% endcapture %}
+    {% if diff contains '-' %}{{ site.first_published }} - {% endif %}
+    {% endif %}
+    {{ thisyear }}
+    <a href="{{ site.baseurl }}/index.html" title="Devoxx4Kids Polska"><span>Devoxx4Kids Polska</span></a></li>
+  <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
+  <li>Built with: <a href="http://jekyllrb.com" target="_blank">Jekyll</a></li>
+</ul>

@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Devoxx4Kids Polska | Radomsko, 6 czerwca 2015</title>
+
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" id="google_fonts-css" href="http://www.devoxx4kids.pl/archiwum/2015//css/font.css" type="text/css" media="all">
+  <link rel="stylesheet" id="spacious_style-css" href="http://www.devoxx4kids.pl/archiwum/2015//css/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="http://www.devoxx4kids.pl/archiwum/2015//css/main.css" type="text/css" media="all">
+
+  <script type="text/javascript" src="http://www.devoxx4kids.pl/archiwum/2015//js/jquery.js"></script>
+  <script type="text/javascript" src="http://www.devoxx4kids.pl/archiwum/2015//js/jquery-migrate.min.js"></script>
+  <script type="text/javascript" src="http://www.devoxx4kids.pl/archiwum/2015//js/spacious-custom.js"></script>
+
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+
+  <style type="text/css">
+    div.age_group {
+      display: inline-block;
+      margin: 10px;
+    }
+
+    #map-canvas {
+      width: 450px;
+      height: 250px;
+      float: left;
+      margin-top: 30px;
+    }
+
+    .sponsors,
+    .partners {
+      margin-top: 20px;
+      text-align: center;
+    }
+    
+    .sponsors .caption {
+      margin: 0;
+    }
+    
+    .sponsors .gold {
+      display: block;
+    }
+
+    .sponsors img {
+      margin: 30px;
+    }
+
+    .partners img {
+      margin: 10px;
+    }
+    
+    .sponsors img.nomargin,
+    .partners img.nomargin {
+      margin: 0 !important;
+    }
+
+    .sponsors .sponsor,
+    .partners .partner {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+  blockquote {
+    border-left: 3px solid #347ccf;
+  }
+
+  .spacious-button, input[type="reset"], input[type="button"], input[type="submit"], button {
+    background-color: #347ccf;
+  }
+
+  .previous a:hover, .next a:hover {
+    color: #347ccf;
+  }
+
+  a {
+    color: #347ccf;
+  }
+
+  #site-title a:hover {
+    color: #347ccf;
+  }
+
+  .main-navigation ul li.current_page_item a, .main-navigation ul li:hover > a {
+    color: #347ccf;
+  }
+
+  .main-navigation ul li ul {
+    border-top: 1px solid #347ccf;
+  }
+
+  .main-navigation ul li ul li a:hover, .main-navigation ul li ul li:hover > a, .main-navigation ul li.current-menu-item ul li a:hover {
+    color: #347ccf;
+  }
+
+  .site-header .menu-toggle:hover {
+    background: #347ccf;
+  }
+
+  .main-small-navigation li:hover {
+    background: #347ccf;
+  }
+
+  .main-small-navigation ul > .current_page_item, .main-small-navigation ul > .current-menu-item {
+    background: #347ccf;
+  }
+
+  .main-navigation a:hover, .main-navigation ul li.current-menu-item a, .main-navigation ul li.current_page_ancestor a, .main-navigation ul li.current-menu-ancestor a, .main-navigation ul li.current_page_item a, .main-navigation ul li:hover > a {
+    color: #347ccf;
+  }
+
+  .small-menu ul li ul li a:hover, .small-menu ul li ul li:hover > a, .small-menu ul li.current-menu-item ul li a:hover {
+    color: #347ccf;
+  }
+
+  #featured-slider .slider-read-more-button {
+    background-color: #347ccf;
+  }
+
+  #controllers a:hover, #controllers a.active {
+    background-color: #347ccf;
+    color: #347ccf;
+  }
+
+  .breadcrumb a:hover {
+    color: #347ccf;
+  }
+
+  .tg-one-half .widget-title a:hover, .tg-one-third .widget-title a:hover, .tg-one-fourth .widget-title a:hover {
+    color: #347ccf;
+  }
+
+  .pagination span {
+    background-color: #347ccf;
+  }
+
+  .pagination a span:hover {
+    color: #347ccf;
+    border-color: . #347ccf;
+  }
+
+  .widget_testimonial .testimonial-post {
+    border-color: #347ccf #EAEAEA #EAEAEA #EAEAEA;
+  }
+
+  .call-to-action-content-wrapper {
+    border-color: #EAEAEA #EAEAEA #EAEAEA #347ccf;
+  }
+
+  .call-to-action-button {
+    background-color: #347ccf;
+  }
+
+  #content .comments-area a.comment-permalink:hover {
+    color: #347ccf;
+  }
+
+  .comments-area .comment-author-link a:hover {
+    color: #347ccf;
+  }
+
+  .comments-area .comment-author-link span {
+    background-color: #347ccf;
+  }
+
+  .comment .comment-reply-link:hover {
+    color: #347ccf;
+  }
+
+  .nav-previous a:hover, .nav-next a:hover {
+    color: #347ccf;
+  }
+
+  #wp-calendar #today {
+    color: #347ccf;
+  }
+
+  .widget-title span {
+    border-bottom: 2px solid #347ccf;
+  }
+
+  .footer-widgets-area a:hover {
+    color: #347ccf !important;
+  }
+
+  .footer-socket-wrapper .copyright a:hover {
+    color: #347ccf;
+  }
+
+  a#back-top:before {
+    background-color: #347ccf;
+  }
+
+  .read-more, .more-link {
+    color: #347ccf;
+  }
+
+  .post .entry-title a:hover, .page .entry-title a:hover {
+    color: #347ccf;
+  }
+
+  .post .entry-meta .read-more-link {
+    background-color: #347ccf;
+  }
+
+  .post .entry-meta a:hover, .type-page .entry-meta a:hover {
+    color: #347ccf;
+  }
+
+  .single #content .tags a:hover {
+    color: #347ccf;
+  }
+
+  .widget_testimonial .testimonial-icon:before {
+    color: #347ccf;
+  }
+
+  a#scroll-up {
+    background-color: #347ccf;
+  }
+
+  #search-form span {
+    background-color: #347ccf;
+  }
+  </style>
+  
+  <style type="text/css">
+  #primary {
+    position: relative;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    padding-top: 18px;
+  }
+
+  .mainColor {
+    color: #347ccf;
+  }
+
+  .fancyTitle {
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  }
+
+  table.fancyTable {
+    border: none !important;
+  }
+
+  table.fancyTable tr td {
+    border-left: 2px solid #347ccf;
+    margin-right: 10px;
+  }
+
+  /*Devoxx4Kids Poland*/
+  #header-text h1 a, #header-text h2 {
+    color: #346ccf !important;
+  }
+
+  /*tytul strony*/
+  .header-post-title-class {
+    text-transform: uppercase;
+  }
+
+  /*baner*/
+  .header-image-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-image {
+    width: auto !important;
+    border: none !important;
+  }
+
+  /**strona glowna**/
+  .mainPage {
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+  }
+
+  .mainPage h1 {
+    margin-top: 20px;
+    
+  }
+
+  /*div z warsztatami*/
+  .workshops {
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .workshops .wp-caption {
+    border: none !important;
+  }
+
+  .workshop {
+    border: none !important;
+  }
+
+  .workshop-icon {
+    position: absolute;
+    left: -220px;
+  }
+
+  /*EOF mainpage**/
+
+  /*opis warsztatow*/
+  .workshop-header {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .workshop-header h1 {
+    color: #347ccf;
+    text-align: center;
+  }
+
+  .workshop-widget {
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+
+  .workshop-widget .widget-title {
+    font-size: 22px;
+    text-align: left;
+    color: #347ccf;
+  }
+
+  .workshop-widget .workshop-post {
+    padding: 20px;
+    border-width: 2px 1px 1px 1px;
+    border-style: solid dashed dashed dashed;
+    border-color: #347ccf #EAEAEA #EAEAEA #EAEAEA;
+    margin-bottom: 15px;
+    display: block;
+    overflow: hidden;
+  }
+
+  .noborder, table.noborder th td, table.noborder tr td {
+    border: none !important;
+  }
+
+  /*listy w tekstach */
+  .entry-content ul {
+    margin-left: 20px;
+    list-style-position: outside;
+  }
+
+  .entry-content ul li {
+    list-style-type: disc;
+  }
+
+  /*rozpiska dla sciezki*/
+  .workshop-tab {
+    border-collapse: collapse;
+  }
+
+  .workshop-tab td {
+    padding: 15px;
+  }
+
+  .workshop-thead th {
+    border: none !important;
+  }
+
+  .odd {
+    background-color: #eaeaea;
+  }
+
+  .path6 {
+    text-align: center
+  }
+
+  .path8 {
+    text-align: center
+  }
+
+  .path10 {
+    text-align: center
+  }
+
+  .path12 {
+    text-align: center
+  }
+
+  .author {
+    color: darkgray;
+    font-style: italic;
+    font-size: 12px
+  }
+  </style>
+</head>
+
+
+<body class="home page page-id-68 page-template-default custom-background no-sidebar-full-width ">
+
+<div id="page" class="hfeed site">
+
+  <header id="masthead" class="site-header clearfix">
+
+  <div id="header-text-nav-container">
+    <div class="inner-wrap">
+
+      <div id="header-text-nav-wrap" class="clearfix">
+        <div id="header-left-section">
+          <div id="header-text">
+            <h1 id="site-title">
+              <a href="/index.html" title="Devoxx4Kids Polska" rel="home">Devoxx4Kids Polska</a>
+            </h1>
+            <h2 id="site-description">Radomsko, 6 czerwca 2015</h2>
+          </div>
+        </div>
+
+        <!-- #header-left-section -->
+        <div id="header-right-section">
+          <nav id="site-navigation" class="main-navigation" role="navigation">
+            <h1 class="menu-toggle">Menu</h1>
+
+            <div class="menu-meinmenu-container">
+              <ul id="menu-meinmenu" class="menunav-menu">
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28">
+                  <a href="zapisy.html">Zapisz się!</a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28">
+                  <a href="warsztaty.html">Agenda</a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28">
+                  <a href="prelegenci.html">Prelegenci</a>
+                </li>
+                <li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28">
+                  <a href="lokalizacja.html">Lokalizacja</a>
+                </li>
+                <li id="menu-item-221" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-221">
+                  <a href="regulamin.html">Regulamin</a>
+                </li>
+                <li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84">
+                  <a href="sponsorzy.html">Wspierają nas</a>
+                </li>
+                <li id="menu-item-279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-279">
+                  <a href="organizatorzy.html">Organizatorzy</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <!-- #header-right-section -->
+
+      </div>
+      <!-- #header-text-nav-wrap -->
+    </div>
+    <!-- .inner-wrap -->
+  </div>
+  <!-- #header-text-nav-container -->
+
+  <div class="header-image-container">
+  <img src="http://www.devoxx4kids.pl/archiwum/2015//images/devoxx4kids-polska.png" class="header-image" width="1268" height="331" alt="Devoxx4Kids Polska">
+</div>
+
+</header>
+
+
+  <div id="main" class="clearfix">
+    <div class="inner-wrap">
+
+      <div id="primary">
+        <div id="content" class="clearfix">
+          <article class="page type-page status-publish hentry">
+
+            <div class="entry-content clearfix sponsors">
+  <p class="caption">Sponsorzy</p>
+  <a href="http://www.arco-system.pl/" title="Arco System" class="sponsor"><img src="http://www.devoxx4kids.pl/archiwum/2015//images/sponsors/arco_system.jpg" alt="Arco System" title="Arco System" /></a>
+  <a href="http://www.bramyfil.pl/" title="Eurofil" class="sponsor"><img src="http://www.devoxx4kids.pl/archiwum/2015//images/sponsors/eurofil.jpg" alt="Eurofil" title="Eurofil" /></a>
+</div>
+<div class="partners">
+  <p class="caption">Patronat Honorowy</p>
+  <a href="http://men.gov.pl/" title="Ministerstwo Edukacji Narodowej" class="partner"><img src ="http://www.devoxx4kids.pl/archiwum/2015//images/sponsors/logo_ministerstwo.png" title="Ministerstwo Edukacji Narodowej" alt="Ministerstwo Edukacji Narodowej" /></a>
+  <a href="http://mac.gov.pl/" title="Ministerstwo Administracji i Cyfryzacji" class="partner"><img src ="http://www.devoxx4kids.pl/archiwum/2015//images/sponsors/mac.jpg" title="Ministerstwo Administracji i Cyfryzacji" alt="Ministerstwo Administracji i Cyfryzacji" /></a>
+</div>
+<div class="partners">
+  <p class="caption">Patronat Medialny</p>
+  <a href="http://www.lodz.tvp.pl/" title="TVP Łódź - Telewizja Polska S.A." class="partner"><img src="http://www.devoxx4kids.pl/archiwum/2015//images/sponsors/tvp_lodz.png" alt="TVP Łódź - Telewizja Polska S.A." title="TVP Łódź - Telewizja Polska S.A." class="nomargin" /></a>
+  <a href="http://www.itwedukacji.pl/" title="IT w Edukacji" class="partner"><img src="http://www.devoxx4kids.pl/archiwum/2015//images/sponsors/itwedukacji.jpg" alt="IT w Edukacji" title="IT w Edukacji" /></a>
+</div>
+<div class="partners">
+  <p class="caption">Partnerzy</p>
+  <a href="http://www.pcz.pl/" class="partner" title="Politechnika Częstochowska"><img src ="http://www.devoxx4kids.pl/archiwum/2015//images/sponsors/politechnika_czestochowska.jpg" title="Politechnika Częstochowska" alt="Politechnika Częstochowska" /></a>
+  <a href="http://www.robocamp.pl/" class="partner" title="Robocamp"><img src ="http://www.devoxx4kids.pl/archiwum/2015//images/logo-robocamp-bez_podpisu-250.png" title="Robocamp" alt="Robocamp" /></a>
+  <a href="http://www.decerto.pl/" class="partner" title="Decerto"><img src ="http://www.devoxx4kids.pl/archiwum/2015//images/sponsors/decerto.png" title="Decerto" alt="Decerto" /></a>
+  <a href="http://kids.geecon.org/" class="partner" title="Geecon4Kids"><img src ="http://www.devoxx4kids.pl/archiwum/2015//images/sponsors/geecon4kids.png" title="Geecon4Kids" alt="Geecon4Kids" /></a>
+  <a href="http://warszawa.jug.pl/" title="Warsaw Java User Group" class="partner"><img src ="http://www.devoxx4kids.pl/archiwum/2015//images/sponsors/d4k-logo-wjug.jpeg" title="Warsaw Java User Group" alt="Warsaw Java User Group" /></a>
+</div>
+<div class="partners">
+  <p>
+    Jeśli jesteś zainteresowany wsparciem konferencji napisz do nas na <a href="mailto:devoxx4kidspl@gmail.com">devoxx4kidspl@gmail.com</a>.
+  </p>
+</div>
+
+
+          </article>
+        </div><!-- #content -->
+      </div><!-- #primary -->
+
+    </div><!-- .inner-wrap -->
+  </div><!-- #main -->
+
+
+  <footer id="colophon" class="clearfix">
+
+  <div class="footer-widgets-wrapper">
+    <div class="inner-wrap">
+      <div class="footer-widgets-area clearfix">
+
+        <div class="tg-one-fourth tg-column-1">
+  <aside id="nav_menu-3" class="widget widget_nav_menu">
+    <h3 class="widget-title"><span>Warsztaty</span></h3>
+    <div class="menu-sciezki-container">
+      <ul id="menu-sciezki" class="menu">
+        <li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83"><a href="grupa6+.html">Grupa 6+</a></li>
+        <li id="menu-item-82" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a href="grupa8+.html">Grupa 8+</a></li>
+        <li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a href="grupa10+.html">Grupa 10+</a></li>
+        <li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a href="grupa12+.html">Grupa 12+</a></li>
+        <li id="menu-item-372" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-372"><a href="opiekunowie.html">Grupa Opiekunowie</a></li>
+      </ul>
+    </div>
+  </aside>
+</div>
+
+        <div class="tg-one-fourth tg-column-2">
+          <aside id="text-4" class="widget widget_text">
+            <h3 class="widget-title"><span>Miejsce</span></h3>
+            <div class="textwidget">
+              <a href="http://www.zse-e.edu.pl/" target="_blank">Zespół Szkół Elektryczno-Elektronicznych w Radomsku</a><br />
+              ul. Narutowicza 12<br />
+              97-500 Radomsko
+            </div>
+          </aside>
+        </div>
+
+        <div class="tg-one-fourth tg-after-two-blocks-clearfix tg-column-3">
+  <aside id="text-3" class="widget widget_text">
+    <h3 class="widget-title"><span>Organizatorzy</span></h3>
+    <div class="textwidget">
+      Wydarzenie jest organizowane przez <a href="http://koduj.com/" target="_blank">Fundację Koduj.com</a>
+      [<a href="organizatorzy.html">więcej</a>]
+    </div>
+  </aside>
+</div>
+
+        <div class="tg-one-fourth tg-one-fourth-last tg-column-4">
+  <aside id="text-2" class="widget widget_text">
+    <h3 class="widget-title"><span>Kontakt</span></h3>
+    <div class="textwidget"
+        ><p><a href="mailto:devoxx4kidspl@gmail.com">devoxx4kidspl@gmail.com</a></p>
+    </div>
+  </aside>
+  <aside id="text-6" class="widget widget_text">
+    <div class="textwidget">
+      <a href="https://www.facebook.com/devoxx4kidspl" target="_blank"><img src="http://www.devoxx4kids.pl/archiwum/2015//images/FB-f-Logo__blue_50.png"></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="https://twitter.com/Devoxx4KidsPL" target="_blank"><img src="http://www.devoxx4kids.pl/archiwum/2015//images/twitter.png"></a></div>
+  </aside>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-socket-wrapper clearfix">
+  <div class="inner-wrap">
+    <div class="footer-socket-area">
+      <div class="copyright">Copyright © 2015 <a href="index.html" title="Devoxx4Kids Polska"><span>Devoxx4Kids Polska</span></a></div>
+    </div>
+  </div>
+</div>
+</footer>
+
+  <a href="http://www.devoxx4kids.pl/#masthead" id="scroll-up" style="display: block;"></a>
+</div><!-- #page -->
+<script type="text/javascript" src="http://www.devoxx4kids.pl/archiwum/2015//js/navigation.js"></script>
+
+</body>
+
+</html>

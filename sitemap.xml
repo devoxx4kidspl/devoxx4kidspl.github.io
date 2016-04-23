@@ -7,187 +7,243 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://www.devoxx4kids.pl/</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/</loc>
+  <lastmod>2016-04-21T21:43:01+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/warszawa/</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/index.html</loc>
+  <lastmod>2016-04-21T21:43:01+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/radomsko/</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/regulamin.html</loc>
+  <lastmod>2016-04-21T21:43:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/poznan/</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/miasta/poznan.html</loc>
+  <lastmod>2016-04-21T21:43:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/gdynia/</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/organizatorzy.html</loc>
+  <lastmod>2016-04-21T21:43:01+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/index.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/kontakt.html</loc>
+  <lastmod>2016-04-21T21:43:01+00:00</lastmod>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/warszawa/lokalizacja.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/</loc>
+  <lastmod>2016-04-20T22:56:41+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/warszawa/regulamin.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/warszawa/</loc>
+  <lastmod>2016-04-20T22:58:14+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/warszawa/sponsorzy.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/radomsko/</loc>
+  <lastmod>2016-04-20T22:58:07+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/warszawa/organizatorzy.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/poznan/</loc>
+  <lastmod>2016-04-20T22:57:55+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/warszawa/grupa6+.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/index.html</loc>
+  <lastmod>2016-04-20T22:56:41+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/warszawa/grupa8+.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/warszawa/zapisy.html</loc>
+  <lastmod>2016-04-20T22:58:12+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/warszawa/grupa10+.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/warszawa/warsztaty.html</loc>
+  <lastmod>2016-04-20T22:58:13+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/warszawa/grupa12+.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/warszawa/prelegenci.html</loc>
+  <lastmod>2016-04-20T22:58:10+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/warszawa/opiekunowie.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/warszawa/lokalizacja.html</loc>
+  <lastmod>2016-04-20T22:58:11+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/warszawa/index.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/warszawa/regulamin.html</loc>
+  <lastmod>2016-04-20T22:58:15+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/radomsko/lokalizacja.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/warszawa/sponsorzy.html</loc>
+  <lastmod>2016-04-20T22:58:09+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/radomsko/regulamin.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/warszawa/organizatorzy.html</loc>
+  <lastmod>2016-04-20T22:58:09+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/radomsko/sponsorzy.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/warszawa/grupa6+.html</loc>
+  <lastmod>2016-04-20T22:58:12+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/radomsko/organizatorzy.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/warszawa/grupa8+.html</loc>
+  <lastmod>2016-04-20T22:58:11+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/radomsko/grupa6+.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/warszawa/grupa10+.html</loc>
+  <lastmod>2016-04-20T22:58:15+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/radomsko/grupa8+.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/warszawa/grupa12+.html</loc>
+  <lastmod>2016-04-20T22:58:16+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/radomsko/grupa10+.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/warszawa/opiekunowie.html</loc>
+  <lastmod>2016-04-20T22:58:13+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/radomsko/grupa12+.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/warszawa/index.html</loc>
+  <lastmod>2016-04-20T22:58:14+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/radomsko/opiekunowie.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/radomsko/zapisy.html</loc>
+  <lastmod>2016-04-20T22:58:05+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/radomsko/index.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/radomsko/warsztaty.html</loc>
+  <lastmod>2016-04-20T22:58:06+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/poznan/lokalizacja.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/radomsko/prelegenci.html</loc>
+  <lastmod>2016-04-20T22:58:01+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/poznan/regulamin.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/radomsko/lokalizacja.html</loc>
+  <lastmod>2016-04-20T22:58:02+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/poznan/sponsorzy.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/radomsko/regulamin.html</loc>
+  <lastmod>2016-04-20T22:58:07+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/poznan/organizatorzy.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/radomsko/sponsorzy.html</loc>
+  <lastmod>2016-04-20T22:58:03+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/poznan/grupa6+.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/radomsko/organizatorzy.html</loc>
+  <lastmod>2016-04-20T22:58:03+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/poznan/grupa8+.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/radomsko/grupa6+.html</loc>
+  <lastmod>2016-04-20T22:58:04+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/poznan/grupa10+.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/radomsko/grupa8+.html</loc>
+  <lastmod>2016-04-20T22:58:00+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/poznan/grupa12+.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/radomsko/grupa10+.html</loc>
+  <lastmod>2016-04-20T22:58:08+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/poznan/opiekunowie.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/radomsko/grupa12+.html</loc>
+  <lastmod>2016-04-20T22:58:01+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/poznan/index.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/radomsko/opiekunowie.html</loc>
+  <lastmod>2016-04-20T22:58:05+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/gdynia/lokalizacja.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/radomsko/index.html</loc>
+  <lastmod>2016-04-20T22:58:07+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/gdynia/regulamin.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/poznan/agenda.html</loc>
+  <lastmod>2016-04-20T22:57:54+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/gdynia/sponsorzy.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/poznan/lokalizacja.html</loc>
+  <lastmod>2016-04-20T22:57:59+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/gdynia/organizatorzy.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/poznan/regulamin.html</loc>
+  <lastmod>2016-04-20T22:57:55+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/gdynia/grupa6+.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/poznan/sponsorzy.html</loc>
+  <lastmod>2016-04-20T22:57:59+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/gdynia/grupa8+.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/poznan/organizatorzy.html</loc>
+  <lastmod>2016-04-20T22:57:58+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/gdynia/grupa10+.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/poznan/grupa6+.html</loc>
+  <lastmod>2016-04-20T22:57:52+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/gdynia/grupa12+.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/poznan/grupa8+.html</loc>
+  <lastmod>2016-04-20T22:57:56+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/gdynia/opiekunowie.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/poznan/grupa10+.html</loc>
+  <lastmod>2016-04-20T22:57:51+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 <url>
-  <loc>http://www.devoxx4kids.pl/gdynia/index.html</loc>
-  <lastmod>2015-04-17T21:23:10+00:00</lastmod>
+  <loc>http://127.0.0.1:4000/archiwum/2015/poznan/grupa12+.html</loc>
+  <lastmod>2016-04-20T22:57:58+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>http://127.0.0.1:4000/archiwum/2015/poznan/opiekunowie.html</loc>
+  <lastmod>2016-04-20T22:57:53+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>http://127.0.0.1:4000/archiwum/2015/poznan/index.html</loc>
+  <lastmod>2016-04-20T22:57:55+00:00</lastmod>
+  <changefreq>yearly</changefreq>
 </url>
 </urlset>

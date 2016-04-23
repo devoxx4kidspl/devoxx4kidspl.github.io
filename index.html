@@ -1,60 +1,55 @@
 ---
-layout: main
+layout: landing
 ---
+					<section id="banner">
+						<div class="inner">
+							<h2>{{ site.title }}</h2>
+							<p>{{ site.landing_page_description | markdownify }}</p>
+						</div>
+						<a href="#goal" class="more scrolly">Dowiedz się więcej</a>
+					</section>
 
-  <div class="mainPage">
-    {% include index/goal.html %}
-    <h3>Edycja 2016</h3>
-    <div class="city">
-      <div class="logo">
-        <img src="/images/cities/warszawa.png" alt="Warszawa" title="Warszawa" width="192"/>
-      </div>
-      <p>Warszawa</p>
-    </div>
-    <div class="city">
-      <div class="logo">
-        <img src="/images/cities/poznan.jpg" alt="Poznań" title="Poznań" width="192"/>
-      </div>
-      <p>Poznań - 21.V</p>
-    </div>
-    <div class="city">
-      <div class="logo">
-        <img src="/images/cities/radomsko.jpg" alt="Radomsko" title="Radomsko" width="192"/>
-      </div>
-      <p>Radomsko - 4.VI</p>
-    </div>
-    <div>
-    	<p>Już wkrótce wicej informacji. :)</p>
-    </div>
-    <br/>
-    <hr/>
-    <br/>
-    <h3>Edycja 2015 - Wybierz miasto</h3>
-    <div class="city">
-      <div class="logo">
-        <a href="/warszawa"><img src="/images/cities/warszawa.png" alt="Warszawa" title="Warszawa" width="192"/></a>
-      </div>
-      <a href="/warszawa">Warszawa - 30.V</a>
-    </div>
-    <div class="city">
-      <div class="logo">
-        <a href="/radomsko"><img src="/images/cities/radomsko.jpg" alt="Radomsko" title="Radomsko" width="192"/></a>
-      </div>
-      <a href="/radomsko">Radomsko - 6.VI</a>
-    </div>
-    <div class="city">
-      <div class="logo">
-        <a href="/poznan"><img src="/images/cities/poznan.jpg" alt="Poznań" title="Poznań" width="192"/></a>
-      </div>
-      <a href="/poznan">Poznań - 13.VI</a>
-    </div>
-    <hr/>
-    <h3>Wydarzenia partnerów:</h3>
-    <div class="city">
-      <div class="logo">
-	    <a href="http://devoxxdladzieci.pl"><img src="/images/cities/d4k-splash_btn.png" alt="devoxxdladzieci.pl" title="devoxxdladzieci.pl - Kraków" width="192"/></a>
-        <!--<a href="/gdynia"><img src="/images/cities/gdynia.jpg" alt="Gdynia" title="Gdynia" width="192"/></a>-->
-      </div>
-      <a href="http://devoxxdladzieci.pl">devoxxdladzieci.pl - Kraków - 26.IX</a>
-    </div>
-  </div>
+					<section id="goal" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								{% include common/goal.html %}
+							</header>
+						</div>
+					</section>
+
+					<section id="cities" class="wrapper alt style2">
+						<section class="spotlight">
+							<div class="image"><img src="images/warszawa.png" alt="" /></div><div class="content">
+							<h2>Warszawa</h2>
+							<p>Niestety tegoroczna edycja warsztatów w stolicy się nie odbędzie. W tym roku zapraszamy na warsztaty w innych miastach. Dziękujemy za zainteresowanie i udział w poprzednich edycjach.</p>
+						</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><a href="{{ site.baseurl }}/miasta/poznan.html"><img src="images/poznan.jpg" alt="Poznań - logo" /></a></div><div class="content">
+								<h2><a href="{{ site.baseurl }}/miasta/poznan.html">Poznań</a></h2>
+								<p>Wydarzenie odbędzie się w sobotę, 21-go maja 2016 na Uniwersytecie im. Adama Mickiewicza.</p>
+								<strong>Rejestracja rusza już wkrótce!</strong>
+								<ul class="actions vertical">
+									<li><a href="#" class="button fit special disabled">Zapisz się!</a></li>
+								</ul>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/radomsko.jpg" alt="" /></div><div class="content">
+								<h2>Radomsko</h2>
+								<p>Planowany start jest rankiem 4-go czerwca 2016. Więcej informacji wkrótce!</p>
+								<ul class="actions vertical">
+									<li><a href="#" class="button fit special disabled">Zapisz się!</a></li>
+								</ul>
+							</div>
+						</section>
+					</section>
+
+					<section id="archiwum" class="wrapper style4">
+						<div class="inner">
+							<header>
+								<h2>Archiwum</h2>
+								<p>To już druga edycja devoxx4kids w Polsce. <a href="archiwum/2015/">Sprawdź stronę z poprzedniej edycji</a>.</p>
+							</header>
+						</div>
+					</section>
