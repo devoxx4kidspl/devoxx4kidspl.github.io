@@ -31,8 +31,12 @@ layout: default
 				<h2>Partnerzy i sponsorzy</h2>
 				<ul>
 					{% for sponsor in page.sponsors %}
-						{% if sponsor.name and sponsor.link and sponsor.logo %}
-							<li><a href="{{ sponsor.link }}" target="_blank"><img src="{{ site.baseurl }}/images/sponsors/{{ sponsor.logo }}" title="{{ sponsor.name }}" /></a></li>
+						{% if sponsor.name and sponsor.logo %}
+							{% if sponsor.link %}
+								<li><a href="{{ sponsor.link }}" target="_blank"><img src="{{ site.baseurl }}/images/sponsors/{{ sponsor.logo }}" title="{{ sponsor.name }}" /></a></li>
+							{% else %}
+								<li><img src="{{ site.baseurl }}/images/sponsors/{{ sponsor.logo }}" title="{{ sponsor.name }}" /></li>
+					        {% endif %}
 						{% endif %}
 					{% endfor %}
 				</ul>
