@@ -1033,7 +1033,7 @@ $baseurl: '{{ site.baseurl }}/images';
 /* Goal */
 
 #goal {
-	section {
+	section .flex {
 		@include vendor('align-items', 'center');
 		@include vendor('display', 'flex');
 
