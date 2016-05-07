@@ -8,7 +8,7 @@ layout: default
 		<p>{{ page.description }}</p>
 	</header>
 
-	<section class="wrapper {% if page.map %}style6{% else %}style5{% endif %}">
+	<div class="wrapper {% if page.map %}style6{% else %}style5{% endif %}">
 		<div class="inner">
 			{{ content }}
 		</div>
@@ -22,7 +22,7 @@ layout: default
 					data-icon="{{ site.baseurl }}{{ page.map.icon }}"
 			></div>
 		{% endif %}
-	</section>
+	</div>
 
 	{% if page.golden-sponsor %}
 	<section id="golden-sponsor" class="wrapper style1">
