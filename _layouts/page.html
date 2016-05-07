@@ -35,7 +35,7 @@ layout: default
 							{% if sponsor.link %}
 								<li><a href="{{ sponsor.link }}" target="_blank"><img src="{{ site.baseurl }}/images/sponsors/{{ sponsor.logo }}" title="{{ sponsor.name }}" /></a></li>
 							{% else %}
-								<li><img src="{{ site.baseurl }}/images/sponsors/{{ sponsor.logo }}" title="{{ sponsor.name }}" /></li>
+								<li><img src="{{ site.baseurl }}/images/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }} logo" title="{{ sponsor.name }}" /></li>
 					        {% endif %}
 						{% endif %}
 					{% endfor %}
@@ -54,9 +54,9 @@ layout: default
 					{% for sponsor in page.silver-sponsor %}
 						{% if sponsor.name and sponsor.logo %}
 							{% if sponsor.link %}
-								<li><a href="{{ sponsor.link }}" target="_blank"><img src="{{ site.baseurl }}/images/sponsors/{{ sponsor.logo }}" title="{{ sponsor.name }}" /></a></li>
+								<li><a href="{{ sponsor.link }}" target="_blank"><img src="{{ site.baseurl }}/images/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }} logo" title="{{ sponsor.name }}" /></a></li>
 							{% else %}
-								<li><img src="{{ site.baseurl }}/images/sponsors/{{ sponsor.logo }}" title="{{ sponsor.name }}" /></li>
+								<li><img src="{{ site.baseurl }}/images/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }} logo" title="{{ sponsor.name }}" /></li>
 							{% endif %}
 						{% endif %}
 					{% endfor %}
@@ -75,9 +75,9 @@ layout: default
 					{% for sponsor in page.bronze-sponsors %}
 						{% if sponsor.name and sponsor.logo %}
 							{% if sponsor.link %}
-								<li><a href="{{ sponsor.link }}" target="_blank"><img src="{{ site.baseurl }}/images/sponsors/{{ sponsor.logo }}" title="{{ sponsor.name }}" /></a></li>
+								<li><a href="{{ sponsor.link }}" target="_blank"><img src="{{ site.baseurl }}/images/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }} logo" title="{{ sponsor.name }}" /></a></li>
 							{% else %}
-								<li><img src="{{ site.baseurl }}/images/sponsors/{{ sponsor.logo }}" title="{{ sponsor.name }}" /></li>
+								<li><img src="{{ site.baseurl }}/images/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }} logo" title="{{ sponsor.name }}" /></li>
 							{% endif %}
 						{% endif %}
 					{% endfor %}
@@ -96,9 +96,9 @@ layout: default
 					{% for sponsor in page.partners %}
 						{% if sponsor.name and sponsor.logo %}
 							{% if sponsor.link %}
-								<li><a href="{{ sponsor.link }}" target="_blank"><img src="{{ site.baseurl }}/images/sponsors/{{ sponsor.logo }}" title="{{ sponsor.name }}" /></a></li>
+								<li><a href="{{ sponsor.link }}" target="_blank"><img src="{{ site.baseurl }}/images/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }} logo" title="{{ sponsor.name }}" /></a></li>
 							{% else %}
-								<li><img src="{{ site.baseurl }}/images/sponsors/{{ sponsor.logo }}" title="{{ sponsor.name }}" /></li>
+								<li><img src="{{ site.baseurl }}/images/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }} logo" title="{{ sponsor.name }}" /></li>
 							{% endif %}
 						{% endif %}
 					{% endfor %}
