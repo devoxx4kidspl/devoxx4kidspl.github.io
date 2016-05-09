@@ -1334,7 +1334,7 @@ $baseurl: '{{ site.baseurl }}/images';
 	}
 
 	.sponsors {
-		@include padding(2em, 0);
+		@include padding(1em, 0);
 
 		h2 {
 			margin: 0 0 0 2em;
@@ -1345,10 +1345,10 @@ $baseurl: '{{ site.baseurl }}/images';
 			display: flex;
 			flex-flow: row wrap;
 			list-style: none;
-			margin: 2em;
+			margin: 2em 0 0 2em;
 
 			li {
-				padding: 0 2em 0 0;
+				padding: 0 2em 1em 0;
 			}
 
 			a {
