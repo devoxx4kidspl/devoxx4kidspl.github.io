@@ -1953,3 +1953,54 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 	}
+
+	.schedules .schedule {
+		display: none;
+	}
+
+	#group-six-plus:checked ~ .schedules #group-six-plus-schedule,
+	#group-eight-plus:checked ~ .schedules  #group-eight-plus-schedule,
+	#group-ten-plus:checked ~ .schedules #group-ten-plus-schedule,
+	#group-twelve-plus:checked ~ .schedules #group-twelve-plus-schedule {
+		display: block;
+	}
+
+	#group-six-plus:checked {
+		+ label {
+			color: #f0ac2a;
+		}
+
+		+ label::before {
+			background-color: #f0ac2a;
+		}
+	}
+
+	#group-eight-plus:checked {
+		+ label {
+			color: #dc4c48;
+		}
+
+		+ label::before {
+			background-color: #dc4c48;
+		}
+	}
+
+	#group-ten-plus:checked {
+		+ label {
+			color: #3166a2;
+		}
+
+		+ label::before {
+			background-color: #3166a2;
+		}
+	}
+
+	#group-twelve-plus:checked {
+		+ label {
+			color: #45ab6d;
+		}
+
+		+ label::before {
+			background-color: #45ab6d;
+		}
+	}
