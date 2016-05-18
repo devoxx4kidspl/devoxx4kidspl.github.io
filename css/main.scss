@@ -1958,6 +1958,26 @@ $baseurl: '{{ site.baseurl }}/images';
 		display: none;
 	}
 
+	.schedules td:first-child {
+		text-align: right;
+	}
+
+	.schedules {
+		#group-six-plus-schedule th,
+		#group-eight-plus-schedule th,
+		#group-ten-plus-schedule th,
+		#group-twelve-plus-schedule th {
+			color: #fff;
+			text-align: center;
+			border: 5px solid #fff;
+		}
+
+		td {
+			text-align: center;
+			border: 5px solid #fff;
+		}
+	}
+
 	#group-six-plus:checked ~ .schedules #group-six-plus-schedule,
 	#group-eight-plus:checked ~ .schedules  #group-eight-plus-schedule,
 	#group-ten-plus:checked ~ .schedules #group-ten-plus-schedule,
@@ -1975,6 +1995,10 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 	}
 
+	#group-six-plus-schedule thead {
+		background-color: #f0ac2a;
+	}
+
 	#group-eight-plus:checked {
 		+ label {
 			color: #dc4c48;
@@ -1983,6 +2007,10 @@ $baseurl: '{{ site.baseurl }}/images';
 		+ label::before {
 			background-color: #dc4c48;
 		}
+	}
+
+	#group-eight-plus-schedule thead {
+		background-color: #dc4c48;
 	}
 
 	#group-ten-plus:checked {
@@ -1995,6 +2023,10 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 	}
 
+	#group-ten-plus-schedule thead {
+		background-color: #3166a2;
+	}
+
 	#group-twelve-plus:checked {
 		+ label {
 			color: #45ab6d;
@@ -2003,4 +2035,8 @@ $baseurl: '{{ site.baseurl }}/images';
 		+ label::before {
 			background-color: #45ab6d;
 		}
+	}
+
+	#group-twelve-plus-schedule thead {
+		background-color: #45ab6d;
 	}
