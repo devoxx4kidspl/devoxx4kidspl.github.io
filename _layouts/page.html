@@ -108,4 +108,25 @@ layout: default
 	</section>
 	{% endif %}
 
+	{% if page.mediapartners %}
+	<section id="mediapartners" class="wrapper style1 sponsors">
+		<div class="inner">
+			<header class="major">
+				<h2>Partnerzy medialni</h2>
+				<ul>
+					{% for sponsor in page.mediapartners %}
+						{% if sponsor.name and sponsor.logo %}
+							{% if sponsor.link %}
+								<li><a href="{{ sponsor.link }}" target="_blank"><img src="{{ site.baseurl }}/images/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }} logo" title="{{ sponsor.name }}" /></a></li>
+							{% else %}
+								<li><img src="{{ site.baseurl }}/images/sponsors/{{ sponsor.logo }}" alt="{{ sponsor.name }} logo" title="{{ sponsor.name }}" /></li>
+							{% endif %}
+						{% endif %}
+					{% endfor %}
+				</ul>
+			</header>
+		</div>
+	</section>
+	{% endif %}
+
 </article>
