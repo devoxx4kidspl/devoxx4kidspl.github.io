@@ -270,6 +270,11 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 	}
 
+	.sponsors header h2 {
+		color: #000;
+		border-color: rgba(0, 0, 0, 0.125);
+	}
+
 /* Form */
 
 	form {
@@ -1335,6 +1340,8 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	.sponsors {
 		@include padding(1em, 0);
+
+		background-color: #fff;
 
 		h2 {
 			margin: 0 0 0 2em;
