@@ -14,13 +14,15 @@
             <li><a href="{{ site.baseurl }}/regulamin.html">Regulamin</a></li>
             <li>
               <span>Miasta</span>
+              <li>
               <ul>
-                {% for miasto in site.miasta %}
-                  {% if miasto.title %}
-                    <li><a href="{{ miasto.url-path | prepend: site.baseurl }}">{{ miasto.title }}</a></li>
-                  {% endif %}
-                {% endfor %}
-              </ul>
+                  {% for miasto in site.miasta %}
+                    {% if miasto.title %}
+                      <li><a href="{{ miasto.url-path | prepend: site.baseurl }}">{{ miasto.title }}</a></li>
+                    {% endif %}
+                  {% endfor %}
+                </ul>
+              </li>
             </li>
             <li><a href="{{ site.baseurl }}/organizatorzy.html">Organizatorzy</a></li>
             <li><a href="{{ site.baseurl }}/kontakt.html">Kontakt</a></li>
