@@ -107,6 +107,27 @@ layout: default
 		</div>
 	</section>
 	{% endif %}
+	
+	{% if page.schedule %}
+	<section id="schedule" class="wrapper schedule">
+		<div class="inner">
+			<header class="major">
+				<h2>Harmonogram</h2>
+				<ul>
+					{% for s in page.schedule %}
+						{% if s.name and s.logo %}
+							{% if s.link %}
+								<li><a href="{{ s.link }}" target="_blank"><img src="{{ site.baseurl }}/images/{{ s.logo }}" title="{{ s.name }}" /></a></li>
+							{% else %}
+								<li><img src="{{ site.baseurl }}/images/{{ s.logo }}" alt="{{ s.name }} logo" title="{{ s.name }}" /></li>
+					   		{% endif %}
+						{% endif %}
+					{% endfor %}
+				</ul>
+			</header>
+		</div>
+	</section>
+	{% endif %}
 
 	{% if page.partners %}
 	<section id="partners" class="wrapper sponsors">
