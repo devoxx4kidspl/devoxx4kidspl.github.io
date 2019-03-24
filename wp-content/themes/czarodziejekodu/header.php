@@ -17,6 +17,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="profile" href="https://gmpg.org/xfn/11" />
 	<?php wp_head(); ?>
+	<script src="/wp-content/themes/czarodziejekodu/js/old/jquery.min.js"></script>
+	<script src="/wp-content/themes/czarodziejekodu/js/old/jquery.scrollex.min.js"></script>
+	<script src="/wp-content/themes/czarodziejekodu/js/old/jquery.scrolly.min.js"></script>
+	<script src="/wp-content/themes/czarodziejekodu/js/old/skel.min.js"></script>
+	<script src="/wp-content/themes/czarodziejekodu/js/old/util.js"></script>
+	<!--[if lte IE 8]><script src="/wp-content/themes/czarodziejekodu/js/old/ie/respond.min.js"></script><![endif]-->
+	<script src="/wp-content/themes/czarodziejekodu/js/old/main.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
