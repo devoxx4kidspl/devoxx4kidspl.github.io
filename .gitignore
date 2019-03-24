@@ -1,7 +1,7 @@
-# jekyll
-_site
-.sass-cache
+# wordpress
+wp-config.php
 
 # ide
 .idea
 
+old/
