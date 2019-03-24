@@ -1,8 +1,8 @@
 <div class="site-branding">
 	<?php if ( is_front_page() ): ?>
-		<header id="header">
-	<?php else: ?>
 		<header id="header" class="alt">
+	<?php else: ?>
+		<header id="header">
 	<?php endif; ?>
 			<h1>
 				<a id="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img alt="czarodzieje kodu logo" src="/wp-content/themes/czarodziejekodu/images/logo-czapka.png"></a>
@@ -29,4 +29,11 @@
 				</nav><!-- .site-navigation -->
 			<?php endif; ?>
 		</header>
+		<section id="banner">
+			<div class="inner">
+				<?php echo the_title( '<h2 class="entry-title">', '</h2>' ); ?>
+				<p><?php echo get_bloginfo( 'description', 'display' ); ?></p>
+			</div>
+			<a href="#primary" class="more scrolly">Dowiedz się więcej</a>
+		</section>
 </div><!-- .site-branding -->
