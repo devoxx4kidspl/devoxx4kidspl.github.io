@@ -3013,3 +3013,9 @@ body.is-mobile.landing #footer {
 .admin-bar #menu {
   top: 32px;
 }
+
+/* Temp */
+.menu-item-link-return,
+.submenu-expand {
+  display: none;
+}
