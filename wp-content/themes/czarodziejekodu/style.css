@@ -2559,12 +2559,12 @@ body.is-menu-visible #menu {
   #header h1 a, #header h1 #title {
     font-size: 0.8em; } }
 #header h1 #logo img {
-  width: 2.6rem;
-  height: 3rem; }
+  width: 3rem;
+  height: 2.6rem; }
 @media screen and (max-width: 736px) {
   #header h1 #logo img {
-    width: 2.2rem;
-    height: 2.6rem; } }
+    width: 2.6rem;
+    height: 2.2rem; } }
 #header h1 #title {
   margin: 0 0 0 1.2em;
   position: relative;
