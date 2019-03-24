@@ -29,5 +29,4 @@
 				</nav><!-- .site-navigation -->
 			<?php endif; ?>
 		</header>
-?>
 </div><!-- .site-branding -->

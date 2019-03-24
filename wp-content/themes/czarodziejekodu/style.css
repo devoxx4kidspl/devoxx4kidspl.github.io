@@ -2435,14 +2435,14 @@ button:disabled,
   border: none; }
 
 /* Page Wrapper + Menu */
-#page-wrapper {
+#page {
   -moz-transition: opacity 0.5s ease;
   -webkit-transition: opacity 0.5s ease;
   -ms-transition: opacity 0.5s ease;
   transition: opacity 0.5s ease;
   opacity: 1;
   padding-top: 3em; }
-#page-wrapper:before {
+#page:before {
   background: rgba(0, 0, 0, 0);
   content: '';
   display: block;
@@ -2516,9 +2516,9 @@ button:disabled,
   #menu {
     padding: 3em 1.5em; } }
 
-body.is-menu-visible #page-wrapper {
+body.is-menu-visible #page {
   opacity: 0.35; }
-body.is-menu-visible #page-wrapper:before {
+body.is-menu-visible #page:before {
   display: block; }
 body.is-menu-visible #menu {
   -moz-transform: translateX(0);
@@ -2914,7 +2914,7 @@ body.is-mobile #main > header {
     padding: 3em 2em 1em 2em ; } }
 
 /* Landing */
-body.landing #page-wrapper {
+body.landing #page {
   background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner.jpg");
   background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner.jpg");
   background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner.jpg");
@@ -2927,7 +2927,7 @@ body.landing #page-wrapper {
 body.landing #footer {
   background-color: rgba(42, 104, 176, 0.9); }
 
-body.is-mobile.landing #page-wrapper {
+body.is-mobile.landing #page {
   background: none; }
 body.is-mobile.landing #banner,
 body.is-mobile.landing .wrapper.style4 {
