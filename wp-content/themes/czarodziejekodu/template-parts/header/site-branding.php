@@ -1,12 +1,3 @@
-<?php
-/**
- * Displays header site branding
- *
- * @package WordPress
- * @subpackage Twenty_Nineteen
- * @since 1.0.0
- */
-?>
 <div class="site-branding">
 	<?php if ( is_front_page() ): ?>
 		<header id="header">

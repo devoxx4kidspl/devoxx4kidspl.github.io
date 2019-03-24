@@ -3005,3 +3005,11 @@ body.is-mobile.landing #footer {
 
 #group-eighteen-plus-schedule thead {
   background-color: #B1A0C7; }
+
+.admin-bar #header {
+  top: 32px;
+}
+
+.admin-bar #menu {
+  top: 32px;
+}
