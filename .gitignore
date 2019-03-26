@@ -1,5 +1,6 @@
 # wordpress
 wp-config.php
+wp-content/uploads/
 
 # ide
 .idea
