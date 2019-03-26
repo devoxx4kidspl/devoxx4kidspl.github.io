@@ -1,6 +1,23 @@
 <div class="site-branding">
 	<?php if ( is_front_page() ): ?>
 		<header id="header" class="alt">
+			<?php
+			$image = wp_get_attachment_image_src(get_post_thumbnail_id( null ), 'full');
+			if ( is_string($image[0]) ): ?>
+				<style type="text/css">
+					#banner {
+						background-attachment: fixed;
+						background-position: center center;
+						background-repeat: no-repeat;
+						background-size: cover;
+						padding-top: 0;
+						background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(<?php echo $image[0]; ?>);
+						background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(<?php echo $image[0]; ?>);
+						background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(<?php echo $image[0]; ?>);
+						background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(<?php echo $image[0]; ?>);
+					}
+				</style>
+			<?php endif; ?>
 	<?php else: ?>
 		<header id="header">
 	<?php endif; ?>
