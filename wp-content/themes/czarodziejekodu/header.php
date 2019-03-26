@@ -37,7 +37,9 @@
 			<?php if ( is_singular() && twentynineteen_can_show_post_thumbnail() ) : ?>
 				<div class="site-featured-image">
 					<?php
-						twentynineteen_post_thumbnail();
+						if ( !is_front_page() ) {
+							twentynineteen_post_thumbnail();
+						}
 						the_post();
 						$discussion = ! is_page() && twentynineteen_can_show_post_thumbnail() ? twentynineteen_get_discussion_data() : null;
 
