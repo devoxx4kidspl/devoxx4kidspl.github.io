@@ -2562,8 +2562,8 @@ body.is-menu-visible #menu {
     #header h1 a, #header h1 #title {
         font-size: 0.8em; } }
 #header h1 #logo img {
-    width: 3rem;
-    height: 2.6rem; }
+    width: 10rem;
+    height: 3rem; }
 @media screen and (max-width: 736px) {
     #header h1 #logo img {
         width: 2.6rem;
