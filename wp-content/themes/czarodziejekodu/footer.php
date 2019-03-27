@@ -15,7 +15,7 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer">
+	<footer id="footer" class="site-footer">
 		<?php get_template_part( 'template-parts/footer/footer', 'widgets' ); ?>
 		<?php if ( has_nav_menu( 'social' ) ) : ?>
 			<nav class="social-navigation" aria-label="<?php esc_attr_e( 'Social Links Menu', 'twentynineteen' ); ?>">
@@ -23,9 +23,8 @@
 				wp_nav_menu(
 					array(
 						'theme_location' => 'social',
-						'menu_class'     => 'social-links-menu',
-						'link_before'    => '<span class="screen-reader-text">',
-						'link_after'     => '</span>' . twentynineteen_get_icon_svg( 'link' ),
+						'menu_class'     => 'icons',
+						'link_after'     => twentynineteen_get_icon_svg( 'link' ),
 						'depth'          => 1,
 					)
 				);
@@ -34,15 +33,23 @@
 		<?php endif; ?>
 		<div class="site-info">
 			<?php $blog_info = get_bloginfo( 'name' ); ?>
+
+			<ul class="copyright">
+				<li>&copy; 2019</li>
 			<?php if ( ! empty( $blog_info ) ) : ?>
-				<a class="site-name" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>,
+				<li><a class="site-name" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></li>
 			<?php endif; ?>
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentynineteen' ) ); ?>" class="imprint">
-				<?php
-				/* translators: %s: WordPress. */
-				printf( __( 'Proudly powered by %s.', 'twentynineteen' ), 'WordPress' );
-				?>
-			</a>
+				<li>
+				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentynineteen' ) ); ?>" class="imprint">
+					<?php
+					/* translators: %s: WordPress. */
+					printf( __( 'Proudly powered by %s.', 'twentynineteen' ), 'WordPress' );
+					?>
+				</a>
+				</li>
+				<li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
+			</ul>
+
 			<?php
 			if ( function_exists( 'the_privacy_policy_link' ) ) {
 				the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>' );
