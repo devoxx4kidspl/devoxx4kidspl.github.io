@@ -22,7 +22,7 @@
 		<header id="header">
 	<?php endif; ?>
 			<h1>
-				<a id="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img alt="czarodzieje kodu logo" src="/wp-content/themes/czarodziejekodu/images/logo-czapka.png"></a>
+				<a id="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img alt="czarodzieje kodu logo" src="<?php echo esc_url( home_url() ); ?>/wp-content/themes/czarodziejekodu/images/logo-czapka.png"></a>
 				<a id="title" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
 			</h1>
 			<?php if ( has_nav_menu( 'menu-1' ) ) : ?>
