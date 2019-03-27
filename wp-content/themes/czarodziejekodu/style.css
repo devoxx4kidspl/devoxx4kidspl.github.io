@@ -2088,12 +2088,12 @@ button:disabled,
 .wrapper.style2 h2, .wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6, .sponsors.style2 h2, .sponsors.style2 h3, .sponsors.style2 h4, .sponsors.style2 h5, .sponsors.style2 h6 {
     color: #0d0140; }
 .wrapper.style3, .sponsors.style3 {
-    background-color: #505393;
-    color: #d3d4e4; }
+    background-color: #1102a5;
+    color: #fff; }
 .wrapper.style3 strong, .wrapper.style3 b, .sponsors.style3 strong, .sponsors.style3 b {
-    color: #ffffff; }
+    color: #fff; }
 .wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6, .sponsors.style3 h2, .sponsors.style3 h3, .sponsors.style3 h4, .sponsors.style3 h5, .sponsors.style3 h6 {
-    color: #ffffff; }
+    color: #fff; }
 .wrapper.style3 hr, .sponsors.style3 hr {
     border-color: rgba(0, 0, 0, 0.125); }
 .wrapper.style3 blockquote, .sponsors.style3 blockquote {

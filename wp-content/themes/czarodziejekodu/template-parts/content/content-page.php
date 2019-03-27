@@ -31,6 +31,30 @@
 		?>
 	</div><!-- .entry-content -->
 
+	<?php if ( is_front_page() ): ?>
+	<div id="cities" class="wrapper alt style3">
+		<?php
+		global $post;
+		$args = array( 'category_name' => 'Miasta', 'order'=> 'ASC', 'orderby' => 'title' );
+		$postslist = get_posts( $args );
+		foreach ( $postslist as $post ) :
+			setup_postdata( $post );
+			$image = wp_get_attachment_image_src(get_post_thumbnail_id( null ), 'full');
+		?>
+			<section class="spotlight">
+				<div class="image"><img src="<?php echo $image[0]; ?>" alt="Poznań - logo" /></div>
+				<div class="content">
+					<h2><?php the_title(); ?></h2>
+					<p><?php the_content(); ?></p>
+				</div>
+			</section>
+			<?php
+		endforeach;
+		wp_reset_postdata();
+		?>
+	</div>
+	<?php endif; ?>
+
 	<?php if ( get_edit_post_link() ) : ?>
 		<footer class="entry-footer">
 			<?php
